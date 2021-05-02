@@ -1,0 +1,3 @@
+# Global Set up for the all pages
+# :title indicates a name of a file, not the title in the tab
+permalink: :title
