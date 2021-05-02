@@ -1,3 +1,13 @@
+# Web page title
+title: Tom's cave
+
+baseurl: 'https://xkrdudrlf.github.io/'
+
 # Global Set up for the all pages
 # :title indicates a name of a file, not the title in the tab
 permalink: :title
+
+# Sass Set up
+sass:
+  sass_dir: _sass
+  style: compressed
