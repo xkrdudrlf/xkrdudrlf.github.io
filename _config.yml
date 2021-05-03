@@ -1,7 +1,7 @@
 # Web page title
 title: Tom's cave
 
-baseurl: 'https://xkrdudrlf.github.io/'
+baseurl: ''
 
 # Global Set up for the all pages
 # :title indicates a name of a file, not the title in the tab
@@ -11,3 +11,28 @@ permalink: :title
 sass:
   sass_dir: _sass
   style: compressed
+
+# Set up collections(categories)
+collections:
+  authors:
+    # Create Page from _authors directory.
+    output: true
+
+# Set the default layout according to the type of posts.
+defaults:
+  - scope:
+      path: ''
+      type: 'authors'
+    values:
+      layout: 'author'
+
+  - scope:
+      path: ''
+      type: 'posts'
+    values:
+      layout: 'post'
+
+  - scope:
+      path: ''
+    values:
+      layout: 'default'

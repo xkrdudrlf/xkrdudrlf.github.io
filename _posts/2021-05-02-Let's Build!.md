@@ -1,6 +1,7 @@
 ---
-layout: default
+# layout: default
 title: Day 1
+author: Tom Tak
 image: /images/img1.jpg
 ---
 
