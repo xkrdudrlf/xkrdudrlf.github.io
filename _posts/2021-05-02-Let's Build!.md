@@ -1,6 +1,6 @@
 ---
 # layout: default
-title: Day 1
+title: Let's Build!
 author: Tom Tak
 image: /images/img1.jpg
 ---

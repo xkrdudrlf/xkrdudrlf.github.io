@@ -1,17 +1,31 @@
 ---
 layout: default
-title: Home
+title: Tom's Time Capsule
 ---
 
-<h1>Home</h1>
-Welcome to my GitHub Pages !
+<h1 class="index-title">Home</h1>
+<article class="index-description">
+  Hello, strangers. How are you? This is a place where I mainly record my daily
+  struggles to become a better version of myself.
+  <strike>(mostly miserable)</strike>
+  Other than that, I also record other bits of myself like things I learn every
+  day to become a front-end developer or anything related to my hobbies. Thanks
+  for dropping by 😊😊
+</article>
 
-<p>Here are my first blog post</p>
+<h2 class="index-subtitle">Latest Posts</h2>
+<!-- <br> -->
+<!-- <h2 class="section-title">My Latest Posts</h2> -->
 
 <!-- Display in chronological order -->
 {% for post in site.posts %}
+
 <div class="thumbnail">
-  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-  <img src="{{ post.image }}" alt="img" />
+  <h2>
+    <a href="{{ post.url }}"
+      >{{ post.title }} {{ post.date | date_to_string }}</a
+    >
+  </h2>
+  <!-- <img src="{{ post.image }}" alt="img" /> -->
 </div>
 {% endfor %}
