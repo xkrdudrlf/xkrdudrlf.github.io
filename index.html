@@ -15,11 +15,10 @@ title: Tom's Time Capsule
 
 <h2 class="index-subtitle">Latest Posts</h2>
 
-<!-- Display in chronological order -->
 <!-- prettier-ignore -->
-<div class="grid-posts">
+<div id="grid" class="grid-posts">
   {% for post in site.posts %}
-  <div class="grid-posts-item">
+  <div class="grid-posts-item invisible">
     <span class="grid-posts-item-category">{{ post.category }}</span>
     
     <h2 class="grid-posts-item-title">
@@ -27,8 +26,10 @@ title: Tom's Time Capsule
         {{ post.title | truncate: 15, "..."}}
       </a>
     </h2>
+    
     <div class="grid-posts-item-content">
       {% assign excerptParts = post.content | split: "<!-- excerpt-start -->" %}
+      
       {% if excerptParts[1] %} 
         {{ excerptParts[1] | strip_newlines | strip_html | truncate: 100, '...'}}
       {% else %}
@@ -40,3 +41,7 @@ title: Tom's Time Capsule
   </div>
   {% endfor %}
 </div>
+
+<div class="pagination"><i class="fa fas chevron-left"></i></div>
+
+<script src="/assets/js/index.js"></script>

@@ -5,6 +5,12 @@ $border-radius-standard: 10px;
 $border-standard: 2px solid black;
 $light-color: #f4eee8;
 $text-color: black;
+// $blue-color: #4593e6;
+// $red-color: #df7a99;
+// $yellow-color: #fed668;
+$blue-color: #94c2f3;
+$red-color: #ecb5c5;
+$yellow-color: #fcda7d;
 
 // Default
 $body-content-width: 90%;
@@ -15,3 +21,56 @@ $secondary-font: 'Caveat', cursive;
 
 // Aside
 $primary-font: 'Montserrat', sans-serif;
+
+// General Classes
+// Visibility
+.invisible {
+  position: absolute;
+  visibility: hidden;
+}
+
+// Pagination
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+
+  i {
+    cursor: pointer;
+    padding: 0 1rem;
+  }
+
+  &-btn {
+    background: none;
+    border: none;
+    margin: 0 1rem;
+    padding: 0 1rem;
+    font-family: $primary-font;
+    font-size: 1.5rem;
+    cursor: pointer;
+    &:hover {
+      border-bottom: 5px solid $light-color;
+    }
+
+    &:nth-child(3n + 1):hover {
+      border-bottom-color: $blue-color;
+    }
+
+    &:nth-child(3n + 2):hover {
+      border-bottom-color: $red-color;
+    }
+
+    &:nth-child(3n):hover {
+      border-bottom-color: $yellow-color;
+    }
+  }
+
+  .active {
+    cursor: default;
+    border-bottom: 5px solid $blue-color;
+    &:hover {
+      border-color: inherit;
+    }
+  }
+}

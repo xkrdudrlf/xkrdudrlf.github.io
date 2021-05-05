@@ -69,23 +69,34 @@ main {
         list-style: none;
         background: $light-color;
 
-        a {
-          text-decoration: none;
-          color: $text-color;
-          &:hover {
-            text-decoration: underline;
-          }
-        }
         i {
           margin-right: 0.4rem;
         }
+
         &-item {
           margin-bottom: 0.9rem;
+
+          a {
+            display: inline-block;
+            color: $text-color;
+            text-decoration: none;
+            padding-bottom: 0.2rem;
+            border-bottom: 5px solid $light-color;
+          }
+
+          &:nth-child(3n + 1) a:hover {
+            border-color: $blue-color;
+          }
+          &:nth-child(3n + 2) a:hover {
+            border-color: $red-color;
+          }
+          &:nth-child(3n) a:hover {
+            border-color: $yellow-color;
+          }
         }
 
-        &-subitem {
+        .sub {
           margin-left: 1rem;
-          margin-bottom: 0.9rem;
         }
       }
     }
