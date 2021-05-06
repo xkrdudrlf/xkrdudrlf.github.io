@@ -14,6 +14,8 @@ sass:
 
 # Set up collections(categories)
 collections:
+  categories:
+    output: true
   authors:
     # Create Page from _authors directory.
     output: true

@@ -19,7 +19,7 @@ title: Tom's Time Capsule
 <div id="index-grid" class="grid-posts">
   {% for post in paginator.posts %}
   <div class="grid-posts-item">
-    <span class="grid-posts-item-category">{{ post.category }} | {{ post.subCategory}}</span>
+    <span class="grid-posts-item-category">{{ post.categories[0] }} | {{ post.categories[1] }}</span>
     
     <h2 class="grid-posts-item-title">
       <a href="{{ post.url }}">
