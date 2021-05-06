@@ -1,6 +1,7 @@
 ---
 title: Having Fun!
-category: Daily | 2021
+category: Daily
+subCategory: 2021
 author: Tom Tak
 image: /assets/images/blog-design.jpg
 ---

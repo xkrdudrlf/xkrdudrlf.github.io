@@ -36,3 +36,11 @@ defaults:
       path: ''
     values:
       layout: 'default'
+
+# Plugins
+plugins:
+  - jekyll-paginate
+
+# Pagination
+paginate: 3
+paginate_path: '/home/page:num/'

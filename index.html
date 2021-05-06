@@ -16,10 +16,10 @@ title: Tom's Time Capsule
 <h2 class="index-subtitle">Latest Posts</h2>
 
 <!-- prettier-ignore -->
-<div id="grid" class="grid-posts">
-  {% for post in site.posts %}
-  <div class="grid-posts-item invisible">
-    <span class="grid-posts-item-category">{{ post.category }}</span>
+<div id="index-grid" class="grid-posts">
+  {% for post in paginator.posts %}
+  <div class="grid-posts-item">
+    <span class="grid-posts-item-category">{{ post.category }} | {{ post.subCategory}}</span>
     
     <h2 class="grid-posts-item-title">
       <a href="{{ post.url }}">
@@ -42,6 +42,50 @@ title: Tom's Time Capsule
   {% endfor %}
 </div>
 
-<div class="pagination"><i class="fa fas chevron-left"></i></div>
+<!-- prettier-ignore -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | relative_url }}"><i class="fas fa-chevron-left"></i></a>
+  {% else %}
+    <span><i class="fas fa-chevron-left"></i></span>
+  {% endif %}
+  
+  {% if paginator.page > 2 %}
+    {% assign start = paginator.page | minus: 2 %}
+    {% assign end = paginator.page | plus: 2 %}
+    {% if end > paginator.total_pages %}
+      {% assign end = paginator.total_pages %}
+    {% endif %}
+    
+  {% elsif paginator.page == 2 %}
+    {% assign start = 1 %}
+    {% assign end = paginator.page | plus: 3 %}
+    {% if end > paginator.total_pages %}
+      {% assign end = paginator.total_pages %}
+    {% endif %}
+  
+  {% else %}
+    {% assign start = 1 %}
+    {% assign end = paginator.page | plus: 4 %}
+    {% if end > paginator.total_pages %}
+      {% assign end = paginator.total_pages %}
+    {% endif %}
+  {% endif %}
+  
+  
+  {% for page in (start..end) %}
+    {% if page == paginator.page %}
+      <em class="pagination-btn active">{{ page }}</em>
+    {% elsif page == 1 %}
+      <a class="pagination-btn" href="/">{{ page }}</a>
+    {% else %}
+      <a class="pagination-btn" href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+  {% endfor %}
 
-<script src="/assets/js/index.js"></script>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | relative_url }}"><i class="fas fa-chevron-right"></i></a>
+  {% else %}
+    <span><i class="fas fa-chevron-right"></i></span>
+  {% endif %}
+</div>

@@ -34,7 +34,7 @@ $primary-font: 'Montserrat', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 2rem;
+  margin-top: 4.5rem;
 
   i {
     cursor: pointer;
@@ -48,7 +48,9 @@ $primary-font: 'Montserrat', sans-serif;
     padding: 0 1rem;
     font-family: $primary-font;
     font-size: 1.5rem;
-    cursor: pointer;
+    color: black;
+    text-decoration: none;
+
     &:hover {
       border-bottom: 5px solid $light-color;
     }

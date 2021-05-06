@@ -1,7 +1,8 @@
 ---
 # layout: default
 title: Let's Build!
-category: Daily | 2021
+category: Daily
+subCategory: 2021
 author: Tom Tak
 image: /images/img1.jpg
 ---
