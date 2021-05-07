@@ -1,7 +1,7 @@
 # Web page title
 title: Tom's Time Capsule
 
-baseurl: ''
+baseurl: '/github_blog_multi_pagination'
 
 # Global Set up for the all pages
 # :title indicates a name of a file, not the title in the tab
