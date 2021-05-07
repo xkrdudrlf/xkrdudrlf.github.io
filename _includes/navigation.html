@@ -1,11 +1,18 @@
 <!-- Get data from _data/navigation.yml  
      And use it with site.data.navigation -->
+<!-- prettier-ignore -->
 <nav>
-  {% for item in site.data.navigation %}
-    <a href="{{ item.link }}" 
-      {% if page.url == item.link %}
-        class="current"
+  <ul class="nav-menu">
+    {% for item in site.data.navigation %}
+      {% if item.sub %}
+        <li class="nav-menu-item sub">
+        <i class="far fa-folder-open"></i><a href="{{ item.link }}"> {{ item.name}}</a>
+        </li>
+      {% else %}
+        <li class="nav-menu-item">
+          <i class="far fa-folder"></i><a href="{{ item.link }}"> {{ item.name}}</a>
+         </li>
       {% endif %}
-    >{{ item.name }}</a>
-  {% endfor %}
+    {% endfor %}
+  </ul>
 </nav>

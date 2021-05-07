@@ -1,0 +1,116 @@
+<!-- prettier-ignore -->
+{% if paginator.page > 2 %}
+    {% assign start = paginator.page | minus: 2 %}
+    {% assign end = paginator.page | plus: 2 %}
+    {% if end > paginator.total_pages %}
+      {% assign end = paginator.total_pages %}
+    {% endif %}
+    
+  {% elsif paginator.page == 2 %}
+    {% assign start = 1 %}
+    {% assign end = paginator.page | plus: 3 %}
+    {% if end > paginator.total_pages %}
+      {% assign end = paginator.total_pages %}
+    {% endif %}
+  
+  {% else %}
+    {% assign start = 1 %}
+    {% assign end = paginator.page | plus: 4 %}
+    {% if end > paginator.total_pages %}
+      {% assign end = paginator.total_pages %}
+    {% endif %}
+  {% endif %}
+
+<!-- prettier-ignore -->
+{% for page in (start..end) %}
+{% if page == paginator.page %}
+<em class="pagination-btn active">{{ page }}</em>
+{% elsif page == 1 %}
+<a class="pagination-btn" href="/">{{ page }}</a>
+{% else %}
+<!-- <a class="pagination-btn" href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a> -->
+<a
+  class="pagination-btn"
+  href="{{ site.paginate_path | relative_url | replace: ':num', page }}"
+  >{{ page }}</a
+>
+{% endif %} {% endfor %}
+
+<!-- prettier-ignore -->
+---
+layout: default
+---
+
+<h1 class="index-title">{{ page.category }}</h1>
+
+<article class="index-description">{{ page.description }}</article>
+
+<h2 class="index-subtitle">Latest Posts</h2>
+
+<h1 class="index-title">Home</h1>
+<article class="index-description">
+  Hello, strangers. How are you? This is a place where I mainly record my daily
+  struggles to become a better version of myself.
+  <strike>(mostly miserable)</strike>
+  Other than that, I also record other bits of myself like things I learn every
+  day to become a front-end developer or anything related to my hobbies. Thanks
+  for dropping by 😊😊
+</article>
+
+<h2 class="index-subtitle">Latest Posts</h2>
+
+<!-- prettier-ignore -->
+<div id="index-grid" class="grid-posts">
+  {% for post in paginator.posts %}
+  <div class="grid-posts-item">
+    <span class="grid-posts-item-category">{{ post.categories[0] }} | {{ post.categories[1] }}</span>
+    
+    <h2 class="grid-posts-item-title">
+      <a href="{{ post.url }}">
+        {{ post.title | truncate: 15, "..."}}
+      </a>
+    </h2>
+    
+    <div class="grid-posts-item-content">
+      {% assign excerptParts = post.content | split: "<!-- excerpt-start -->" %}
+      
+      {% if excerptParts[1] %} 
+        {{ excerptParts[1] | strip_newlines | strip_html | truncate: 100, '...'}}
+      {% else %}
+        {{ post.excerpt | strip_newlines | strip_html | truncate: 100, '...' }}
+      {% endif %}
+    </div>
+    
+    <span class="grid-posts-item-date">{{ post.date | date_to_string }} </span>
+  </div>
+  {% endfor %}
+</div>
+
+<!-- prettier-ignore -->
+<div class="pagination">
+  {% if paginator.page_trail %}
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | relative_url }}"><i class="fas fa-chevron-left"></i></a>
+    {% else %}
+      <span><i class="fas fa-chevron-left"></i></span>
+    {% endif %}
+  
+    {% for trail in paginator.page_trail %}
+      {% if page.url == trail.path %}
+        <a href="{{ trail.path | prepend: site.baseurl }}" class="pagination-btn active">
+          {{ trail.num }}
+        </a>
+      {% else %}
+        <a href="{{ trail.path | prepend: site.baseurl }}" class="pagination-btn">
+          {{ trail.num }}
+        </a>
+      {% endif %}
+    {% endfor %}
+    
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | relative_url }}"><i class="fas fa-chevron-right"></i></a>
+    {% else %}
+      <span><i class="fas fa-chevron-right"></i></span>
+    {% endif %}
+  {% endif %}
+</div>
