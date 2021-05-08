@@ -1,4 +1,45 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-05-08T02:53:05+00:00</updated><id>/feed.xml</id><title type="html">Tom’s Time Capsule</title><subtitle>github blog with jekyll-paginate-v2 (supports paginations for multiple categories) will link it to the github blog site via Travis)</subtitle><entry><title type="html">Dummy LeetCode!</title><link href="/2021/05/07/Trie.html" rel="alternate" type="text/html" title="Dummy LeetCode!" /><published>2021-05-07T00:00:00+00:00</published><updated>2021-05-07T00:00:00+00:00</updated><id>/2021/05/07/Trie</id><content type="html" xml:base="/2021/05/07/Trie.html">&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-05-08T14:23:46+00:00</updated><id>/feed.xml</id><title type="html">Tom’s Time Capsule</title><subtitle>github blog with jekyll-paginate-v2 (supports paginations for multiple categories) will link it to the github blog site via Travis)</subtitle><entry><title type="html">Reset</title><link href="/2021/05/08/Reset.html" rel="alternate" type="text/html" title="Reset" /><published>2021-05-08T00:00:00+00:00</published><updated>2021-05-08T00:00:00+00:00</updated><id>/2021/05/08/Reset</id><content type="html" xml:base="/2021/05/08/Reset.html">&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;today&quot;&gt;Today&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;ul style=&quot;margin-left: 2rem&quot;&gt;
+  &lt;li&gt;Blog website finally working with Travis CI&lt;/li&gt;
+  &lt;li&gt;Documented Blog Project on Word - need to put it up here on the blog later&lt;li&gt;
+&amp;lt;/ul&amp;gt;
+
+&lt;br /&gt;
+
+## Tommorrow
+
+&lt;hr /&gt;
+&lt;ul style=&quot;margin-left: 2rem&quot;&gt;
+  &lt;li&gt;Finish Designing/Implementing Post/Footer Section of Blog&lt;/li&gt;
+  &lt;li&gt;Make the blog responsive to various viewport sizes(Web/Tab/Mobile)&lt;/li&gt;
+  &lt;li&gt;Try solving 2 LeetCode problems (Trie/Stack/Queue)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;br /&gt;&lt;br /&gt;
+
+## Blah, Blah, Blah
+
+&lt;hr /&gt;
+&lt;br /&gt;
+&lt;div style=&quot;padding-left: 15px;&quot;&gt;
+&lt;!-- excerpt-start --&gt;
+Today was very confusing day with ups and downs.
+At least till this morning, I was so happy that I finally get my blog work with Travis CI, which was the most hardest part for me. And The only thing left for me to do was just same designing and implementing phase for post/footer and bit of media queries to make the blog site responsive.
+&lt;br /&gt;
+Being hopeful, after lunch, I strated documenting what I've done so far in the project for the future reference and to record my learnings from this project. And it was also not that bad, I quite enjoyed writing it out.
+&lt;br /&gt;
+And after that, around dinner time, eveyrthing started getting hairy all of a sudden.. My vscode terminal starts not showing anything just being blank for no reason. And that completely sent me on a wild-goose chase since it turned out that there was nothing wrong with me, rahter it was due to some mysterious incompatibility existing between VS Code and my zsh theme (10k sth whatever).
+&lt;br /&gt;
+Till I finally figured that out, I literally uninstalled and installed everything suspcious.. literally everything.. I firstly reset my zsh thinking i might've modified some parts accidentally and VS Code after that. In the end, after finding out what is the cause, i had to revert every set up env back to what they were which was another pain in the neck 😥😥. 
+&lt;br /&gt;
+Anyway... I'm just trying to think that it was an another good revision of how VS Code work and zsh.. (&lt;strike&gt;Nope&lt;/strike&gt;).
+&lt;/div&gt;
+&lt;/li&gt;&lt;/li&gt;&lt;/ul&gt;</content><author><name>Tom Tak</name></author><category term="Daily" /><summary type="html"></summary></entry><entry><title type="html">Dummy LeetCode!</title><link href="/2021/05/07/Trie.html" rel="alternate" type="text/html" title="Dummy LeetCode!" /><published>2021-05-07T00:00:00+00:00</published><updated>2021-05-07T00:00:00+00:00</updated><id>/2021/05/07/Trie</id><content type="html" xml:base="/2021/05/07/Trie.html">&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;today&quot;&gt;Today&lt;/h2&gt;
 
