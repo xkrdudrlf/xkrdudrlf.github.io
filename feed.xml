@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-05-08T11:42:21+09:00</updated><id>/feed.xml</id><title type="html">Tom’s Time Capsule</title><subtitle>github blog with jekyll-paginate-v2 (supports paginations for multiple categories) will link it to the github blog site via Travis)</subtitle><entry><title type="html">Dummy LeetCode!</title><link href="/2021/05/07/Trie.html" rel="alternate" type="text/html" title="Dummy LeetCode!" /><published>2021-05-07T00:00:00+09:00</published><updated>2021-05-07T00:00:00+09:00</updated><id>/2021/05/07/Trie</id><content type="html" xml:base="/2021/05/07/Trie.html">&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;today&quot;&gt;Today&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;ul style=&quot;margin-left: 2rem&quot;&gt;
+  &lt;li&gt;&quot;Home(Index)&quot; Page - Finished Implementing Pagination(Functionality &amp;amp; Design)&lt;/li&gt;
+  &lt;li&gt;Figured Out Jekyll File Structure with regards to post folder location&lt;/li&gt;
+  &lt;li&gt;Navbar Links Implemented&lt;/li&gt;
+  &lt;li&gt;Trie LeetCode problem (212 Revision with solution(plain + optimized version)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;tommorrow&quot;&gt;Tommorrow&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;ul style=&quot;margin-left: 2rem&quot;&gt;
+  &lt;li&gt;Configure the common template for category main page/ post page&lt;/li&gt;
+  &lt;li&gt;Finishing Designing and Implementing post.html&lt;/li&gt;
+  &lt;li&gt;Try solving 2 LeetCode problems (Trie/Stack/Queue)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;blah-blah-blah&quot;&gt;Blah, Blah, Blah&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div style=&quot;padding-left: 15px;&quot;&gt;
+&lt;!-- excerpt-start --&gt;
+Nowadays, i keep studying more than 8 hrs per day though i bludges for a while in the day.
+I think its mainly due to the blog project since it just eats up large chunk of time easily. And I dont think i am fully concentrated while i'm doing the project compared to taking a course since all i do for project is mostly a series of &quot;Googling &amp;amp; Being Frustrated for a while&quot;. 
+&lt;br /&gt;
+Anyhow, hope i can finally finish template files for post. So, I would not need to manually template the post like now i'm doing. And i think i'm putting too much time on learning this jekyll &amp;amp; liquid stuffs rather than practicing html/css/js which i originally wanted to do.
+&lt;br /&gt;
+I better finish this project asap so that I can practice more on html/css/js before moving on to js. At the moment, I'm thinking of cloning some popular website for practices like i was doing with starbuck page.(Hmm i probs should restart the project again once i finish this)
+&lt;/div&gt;</content><author><name>Tom Tak</name></author><category term="Computer Science" /><category term="LeetCode" /><summary type="html"></summary></entry><entry><title type="html">Keep Going!</title><link href="/2021/05/05/Keep-goin.html" rel="alternate" type="text/html" title="Keep Going!" /><published>2021-05-05T00:00:00+09:00</published><updated>2021-05-05T00:00:00+09:00</updated><id>/2021/05/05/Keep%20goin</id><content type="html" xml:base="/2021/05/05/Keep-goin.html">&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;today&quot;&gt;Today&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;ul style=&quot;margin-left: 2rem&quot;&gt;
+  &lt;li&gt;&quot;Home(Index)&quot; Page - Finished Implementing Pagination(Functionality &amp;amp; Design)&lt;/li&gt;
+  &lt;li&gt;Figured Out Jekyll File Structure with regards to post folder location&lt;/li&gt;
+  &lt;li&gt;Navbar Links Implemented&lt;/li&gt;
+  &lt;li&gt;Trie LeetCode problem (212 Revision with solution(plain + optimized version)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;tommorrow&quot;&gt;Tommorrow&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;ul style=&quot;margin-left: 2rem&quot;&gt;
+  &lt;li&gt;Configure the common template for category main page/ post page&lt;/li&gt;
+  &lt;li&gt;Finishing Designing and Implementing post.html&lt;/li&gt;
+  &lt;li&gt;Try solving 2 LeetCode problems (Trie/Stack/Queue)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;blah-blah-blah&quot;&gt;Blah, Blah, Blah&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div style=&quot;padding-left: 15px;&quot;&gt;
+&lt;!-- excerpt-start --&gt;
+Nowadays, i keep studying more than 8 hrs per day though i bludges for a while in the day.
+I think its mainly due to the blog project since it just eats up large chunk of time easily. And I dont think i am fully concentrated while i'm doing the project compared to taking a course since all i do for project is mostly a series of &quot;Googling &amp;amp; Being Frustrated for a while&quot;. 
+&lt;br /&gt;
+Anyhow, hope i can finally finish template files for post. So, I would not need to manually template the post like now i'm doing. And i think i'm putting too much time on learning this jekyll &amp;amp; liquid stuffs rather than practicing html/css/js which i originally wanted to do.
+&lt;br /&gt;
+I better finish this project asap so that I can practice more on html/css/js before moving on to js. At the moment, I'm thinking of cloning some popular website for practices like i was doing with starbuck page.(Hmm i probs should restart the project again once i finish this)
+&lt;/div&gt;</content><author><name>Tom Tak</name></author><category term="Daily" /><summary type="html"></summary></entry><entry><title type="html">Having Fun!</title><link href="/2021/05/04/Having-Fun.html" rel="alternate" type="text/html" title="Having Fun!" /><published>2021-05-04T00:00:00+09:00</published><updated>2021-05-04T00:00:00+09:00</updated><id>/2021/05/04/Having%20Fun</id><content type="html" xml:base="/2021/05/04/Having-Fun.html">&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;things-ive-done-today&quot;&gt;Things I’ve done today&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;ul style=&quot;margin-left: 2rem&quot;&gt;
+  &lt;li&gt;Complete a basic skeleton structure of a blog&lt;/li&gt;
+  &lt;li&gt;Implemented Header/Profile/Navbar(Design Structure Only)&lt;/li&gt;
+  &lt;li&gt;Tried 2 Trie LeetCode problems (211 solved, 212 TLE for the worst case)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;things-i-need-to-do-tommrrow&quot;&gt;Things I need to do tommrrow&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;ul style=&quot;margin-left: 2rem&quot;&gt;
+  &lt;li&gt;Complete &quot;Latest Post&quot; section in &quot;Home&quot; Page&lt;/li&gt;
+  &lt;li&gt;Make Navbar fully functional - make a href links work&lt;/li&gt;
+  &lt;li&gt;Try solving 2 Trie problmes (212 and the other) in Leetcode&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;blah-blah-blah&quot;&gt;Blah, Blah, Blah&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div style=&quot;padding-left: 15px;&quot;&gt;
+
+&lt;!-- excerpt-start --&gt;
+
+Finally I made up my mind on a blog design. Actually for me, designing my blog was much harder than just coding it up since I'm kinda perfectionist :.. ( Anyway, i couldn't keep being stuck at the designing stage forever, so i managed to compromised myself with a basic and commmon design structure.
+&lt;br /&gt;&lt;br /&gt;
+Before then, my imagination kinda exploded and i was thinking of lots of crazy themes for my blog, which must be difficult to implement as well. Those were simply not feasible considering my current skillset. I would probably end up procrastinating after all since it would be too overwhelming to implement those shiny stuffs I imagined at first.
+&lt;br /&gt;&lt;br /&gt;
+And... tah da~~ The image below on this post is the blog design i drew myself before having started buidling this blog up today.
+&lt;br /&gt;&lt;br /&gt;
+I still need to change a bit of details on Latest Posts section and might add some more components to it but anyway.. At least it got me going and I'm glad i've moved on with this design. Not sure how my blog would look like to others yet, but at least to me it looks cool (my baby.. of course)
+&lt;br /&gt;&lt;br /&gt;
+I probably should work more on DS/Algo tomorrow though.. since i've been neglecting the subject since this blog project took too much time than i expected.
+&lt;br /&gt;&lt;br /&gt;
+Then .. this is all for today. Hope that i wouldn't need to manually format my daily post md file soon !! Gnight :))
+&lt;br /&gt;&lt;br /&gt;
+
+&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/blog-design.jpg&quot; alt=&quot;blog-design&quot; style=&quot;height: 900px; width: 800px;&quot; /&gt;&lt;/p&gt;
+
+&lt;!-- ![blog-design](/assets/images/blog-design.jpg); --&gt;</content><author><name>Tom Tak</name></author><category term="Daily" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/images/blog-design.jpg" /><media:content medium="image" url="/assets/images/blog-design.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Burn Out</title><link href="/2021/05/03/Burnt-out.html" rel="alternate" type="text/html" title="Burn Out" /><published>2021-05-03T00:00:00+09:00</published><updated>2021-05-03T00:00:00+09:00</updated><id>/2021/05/03/Burnt%20out</id><content type="html" xml:base="/2021/05/03/Burnt-out.html">&lt;h1 id=&quot;blog&quot;&gt;Blog&lt;/h1&gt;
+
+&lt;h2 id=&quot;things-ive-done-today&quot;&gt;Things I’ve done today&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Finished Taking Jekyll Tutorial&lt;/li&gt;
+  &lt;li&gt;Tried Medium level Trie Problem on LeetCode[Failed]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;things-i-need-to-do-tommrrow&quot;&gt;Things I need to do tommrrow&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Building my blog&lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt;[Morning] Finalize a blog design - Do not too be ambitious&lt;/li&gt;
+    &lt;li&gt;[Afternoon] Start Implementing a header of a blog based on a design&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt;Try solving 2 problems(Trie/Stack/Queue) in Leetcode&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;blah-blah-blah&quot;&gt;Blah, Blah, Blah&lt;/h2&gt;
+
+&lt;div style=&quot;padding-left: 15px;&quot;&gt;
+  Today I was totally burnt out especially in the evening so i couldn't study enough for ds &amp;amp; algo on leetcode.
+  &lt;br /&gt;&lt;br /&gt;
+  I feel like i should be more consistent. Take time and do things one by one. I will get there some day if i don't give up in the middle being burnt out.
+&lt;/div&gt;
+
+&lt;!-- ![img-1](/images/img1.jpg) --&gt;
+&lt;!-- &lt;img src=&quot;/images/img1.jpg&quot; alt=&quot;img-1&quot; /&gt; --&gt;</content><author><name>Tom Tak</name></author><category term="Daily" /><summary type="html">Blog</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/images/img1.jpg" /><media:content medium="image" url="/images/img1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Let’s Build!</title><link href="/2021/05/02/Let's-Build!.html" rel="alternate" type="text/html" title="Let’s Build!" /><published>2021-05-02T00:00:00+09:00</published><updated>2021-05-02T00:00:00+09:00</updated><id>/2021/05/02/Let's%20Build!</id><content type="html" xml:base="/2021/05/02/Let's-Build!.html">&lt;h1 id=&quot;blog&quot;&gt;Blog&lt;/h1&gt;
+
+&lt;h2 id=&quot;things-ive-done-todayy&quot;&gt;Things I’ve done todayy&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Configured Ruby &amp;amp; Jekyll dev environment&lt;/li&gt;
+  &lt;li&gt;Ready to start building up a blog with html/css(Sass)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;things-i-need-to-do-tommrrow&quot;&gt;Things I need to do tommrrow&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Building my blog&lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Finish the skeleton of my blog (Header/Body/Footer)&lt;/li&gt;
+    &lt;li&gt;Focus on the structure rather than styling (Do this later)&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt;Try solving 2 problems(Trie/Stack/Queue) in Leetcode&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;blah-blah-blah&quot;&gt;Blah, Blah, Blah&lt;/h2&gt;
+
+&lt;div style=&quot;padding-left: 15px;&quot;&gt;
+  Today, I finally started building my own blog, which has been always on my to-do-list, but never dare to start at least till yesterday. So, I wasn't planning to do this today at all though i thought i will at some point in the future.
+  &lt;br /&gt;&lt;br /&gt; 
+  Initially, I simply thought that my front-end dev skills aren't good enough yet to build a blog wesbite since I'm actually still at a very early stage of front-end development. I just had finished the basics of HTML and CSS(Sass) course 2 days ago.
+  &lt;br /&gt;&lt;br /&gt;
+  Still, I kept thinking that I really need to blog my daily life or learning for many reasons. First one I could think of was that it might help me to get a job in the future since the recruiters might want to know how I've been studying so far and they would be able to check those easily from my blog.
+  &lt;br /&gt;&lt;br /&gt;
+  But, more than anything, it was to calm me down from being depressed and feeling anxious. I think I studied not that bad last month, but I kept feeling worried if I've been doing alright. So, I had to keep checking where I'm up to and how much i've done so far. And after a few days in that same mood, I finally realised that I need something visual to show the workloads I've done and the thing could be my blog since i will record my daily learning there and be able to check them easily if i want to.
+  &lt;br /&gt;&lt;br /&gt;
+  Anyway, so i tried buidling damn blog today. My original thought was to finish building it today within a few hours and how naive I was !! 😂😂 I already got stuck with installing ruby on my WSL, which was very painful. I bumped into lot of diffrent error messages which i barely could understand at all. I literally spent all my morning time wiht installing damn ruby on my WSL.
+  &lt;br /&gt;&lt;br /&gt;
+  Even after that, it again took me another few hours to figure out how jekyll exactly works with its own structure and liquid, which i've never seen before. Anyway, I finally figured it out now and its almost 12am 😥😥. And my blog website still looks very humble.. compared to my ambitious one in my imagination. Whatever :(( I still have a week right? (I changed my plan, so i will try building it up for a week) 
+  &lt;br /&gt;&lt;br /&gt;
+  Ok, I better wrap it up here since I have tommorow to start!
+&lt;/div&gt;
+
+&lt;!-- ![img-1](/images/img1.jpg) --&gt;
+&lt;!-- &lt;img src=&quot;/images/img1.jpg&quot; alt=&quot;img-1&quot; /&gt; --&gt;</content><author><name>Tom Tak</name></author><category term="Daily" /><summary type="html">Blog</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/images/img1.jpg" /><media:content medium="image" url="/images/img1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">First Post</title><link href="/2021/05/01/first.html" rel="alternate" type="text/html" title="First Post" /><published>2021-05-01T00:00:00+09:00</published><updated>2021-05-01T00:00:00+09:00</updated><id>/2021/05/01/first</id><content type="html" xml:base="/2021/05/01/first.html">&lt;h1&gt;Blog&lt;/h1&gt;
+&lt;p&gt;Finally Start building my own blog to record every day life!&lt;/p&gt;
+&lt;img src=&quot;/images/img1.jpg&quot; alt=&quot;img-1&quot; /&gt;</content><author><name>jill</name></author><category term="Daily" /><summary type="html">Blog Finally Start building my own blog to record every day life!</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/images/img1.jpg" /><media:content medium="image" url="/images/img1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Zero Post</title><link href="/2021/04/30/zero.html" rel="alternate" type="text/html" title="Zero Post" /><published>2021-04-30T00:00:00+09:00</published><updated>2021-04-30T00:00:00+09:00</updated><id>/2021/04/30/zero</id><content type="html" xml:base="/2021/04/30/zero.html">&lt;p&gt;Lorem ipsum daaolor sit amet consectetur adipisicing elit. Eos, rerum laudantium
+ad consequuntur ex voluptatum, fugiat vero dicta accusamus magnam, veritatis
+nihil aliquam illo. Distinctio officiis, mollitia ex odio ut modi illum, quasi&lt;/p&gt;
+
+&lt;!-- excerpt-start --&gt;
+
+&lt;p&gt;quae deserunt inventore fugit voluptas reiciendis accusantium. Voluptatum,
+deserunt iusto culpa voluptates consectetur error soluta numquam ex.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/img1.jpg&quot; alt=&quot;img-1&quot; /&gt;&lt;/p&gt;</content><author><name>Tom Tak</name></author><category term="Daily" /><category term="2021" /><summary type="html">Lorem ipsum daaolor sit amet consectetur adipisicing elit. Eos, rerum laudantium ad consequuntur ex voluptatum, fugiat vero dicta accusamus magnam, veritatis nihil aliquam illo. Distinctio officiis, mollitia ex odio ut modi illum, quasi</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/images/img1.jpg" /><media:content medium="image" url="/images/img1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
