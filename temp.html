@@ -114,3 +114,37 @@ layout: default
     {% endif %}
   {% endif %}
 </div>
+
+<!-- prettier-ignore -->
+{% assign baseURL = site.url | append: "/" %}
+  {% assign currPage = page %}
+
+<!-- prettier-ignore -->
+<ul class="post-pagination">
+  {% for i in (1..2) %}
+    {% assign prevPage = currPage.previous %}
+    {% assign prevURL = prevPage.id | replace: " ", "-" %}
+    {% assign prevURL = baseURL | append: prevURL %}
+    
+    {% if prevURL != baseURL %}
+      <li><a href="{{ prevURL }}">{{ prevPage.title }}--{{ prevPage.date }}</a></li>
+    {% endif %}
+    
+    {% assign currPage = currPage.previous %}
+  {% endfor %}
+  
+  <li class="current">{{ page.title }}</li> 
+  {% assign currPage = page %}
+  
+  {% for i in (1..2) %}
+    {% assign nextPage = currPage.next %}
+    {% assign nextURL = nextPage.id | replace: " ", "-" %}
+    {% assign nextURL = baseURL | append: nextURL %}
+    
+    {% if nextURL != baseURL %}
+      <li><a href="{{ nextURL }}">{{ nextPage.title }}</a></li>
+    {% endif %}
+    
+    {% assign currPage = currPage.next %}
+  {% endfor %}    
+  </ul>
