@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-05-08T14:23:46+00:00</updated><id>/feed.xml</id><title type="html">Tom’s Time Capsule</title><subtitle>github blog with jekyll-paginate-v2 (supports paginations for multiple categories) will link it to the github blog site via Travis)</subtitle><entry><title type="html">Reset</title><link href="/2021/05/08/Reset.html" rel="alternate" type="text/html" title="Reset" /><published>2021-05-08T00:00:00+00:00</published><updated>2021-05-08T00:00:00+00:00</updated><id>/2021/05/08/Reset</id><content type="html" xml:base="/2021/05/08/Reset.html">&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-05-09T07:02:48+00:00</updated><id>/feed.xml</id><title type="html">Tom’s Time Capsule</title><subtitle>github blog with jekyll-paginate-v2 (supports paginations for multiple categories) will link it to the github blog site via Travis)</subtitle><entry><title type="html">Reset</title><link href="/daily/2021/2021/05/08/Reset" rel="alternate" type="text/html" title="Reset" /><published>2021-05-08T00:00:00+00:00</published><updated>2021-05-08T00:00:00+00:00</updated><id>/daily/2021/2021/05/08/Reset</id><content type="html" xml:base="/daily/2021/2021/05/08/Reset">&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;today&quot;&gt;Today&lt;/h2&gt;
 
@@ -6,26 +6,28 @@
 
 &lt;ul style=&quot;margin-left: 2rem&quot;&gt;
   &lt;li&gt;Blog website finally working with Travis CI&lt;/li&gt;
-  &lt;li&gt;Documented Blog Project on Word - need to put it up here on the blog later&lt;li&gt;
-&amp;lt;/ul&amp;gt;
+  &lt;li&gt;Documented Blog Project on Word - need to put it up here on the blog later&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;br /&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-## Tommorrow
+&lt;h2 id=&quot;tommorrow&quot;&gt;Tommorrow&lt;/h2&gt;
 
 &lt;hr /&gt;
+
 &lt;ul style=&quot;margin-left: 2rem&quot;&gt;
   &lt;li&gt;Finish Designing/Implementing Post/Footer Section of Blog&lt;/li&gt;
   &lt;li&gt;Make the blog responsive to various viewport sizes(Web/Tab/Mobile)&lt;/li&gt;
   &lt;li&gt;Try solving 2 LeetCode problems (Trie/Stack/Queue)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;br /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
-## Blah, Blah, Blah
+&lt;h2 id=&quot;blah-blah-blah&quot;&gt;Blah, Blah, Blah&lt;/h2&gt;
 
 &lt;hr /&gt;
-&lt;br /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;div style=&quot;padding-left: 15px;&quot;&gt;
 &lt;!-- excerpt-start --&gt;
 Today was very confusing day with ups and downs.
@@ -38,8 +40,7 @@ And after that, around dinner time, eveyrthing started getting hairy all of a su
 Till I finally figured that out, I literally uninstalled and installed everything suspcious.. literally everything.. I firstly reset my zsh thinking i might've modified some parts accidentally and VS Code after that. In the end, after finding out what is the cause, i had to revert every set up env back to what they were which was another pain in the neck 😥😥. 
 &lt;br /&gt;
 Anyway... I'm just trying to think that it was an another good revision of how VS Code work and zsh.. (&lt;strike&gt;Nope&lt;/strike&gt;).
-&lt;/div&gt;
-&lt;/li&gt;&lt;/li&gt;&lt;/ul&gt;</content><author><name>Tom Tak</name></author><category term="Daily" /><summary type="html"></summary></entry><entry><title type="html">Dummy LeetCode!</title><link href="/2021/05/07/Trie.html" rel="alternate" type="text/html" title="Dummy LeetCode!" /><published>2021-05-07T00:00:00+00:00</published><updated>2021-05-07T00:00:00+00:00</updated><id>/2021/05/07/Trie</id><content type="html" xml:base="/2021/05/07/Trie.html">&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;/div&gt;</content><author><name>Tom Tak</name></author><category term="Daily" /><summary type="html"></summary></entry><entry><title type="html">Dummy LeetCode!</title><link href="/computer%20science/leetcode/2021/05/07/Trie" rel="alternate" type="text/html" title="Dummy LeetCode!" /><published>2021-05-07T00:00:00+00:00</published><updated>2021-05-07T00:00:00+00:00</updated><id>/computer%20science/leetcode/2021/05/07/Trie</id><content type="html" xml:base="/computer%20science/leetcode/2021/05/07/Trie">&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;today&quot;&gt;Today&lt;/h2&gt;
 
@@ -79,7 +80,7 @@ I think its mainly due to the blog project since it just eats up large chunk of 
 Anyhow, hope i can finally finish template files for post. So, I would not need to manually template the post like now i'm doing. And i think i'm putting too much time on learning this jekyll &amp;amp; liquid stuffs rather than practicing html/css/js which i originally wanted to do.
 &lt;br /&gt;
 I better finish this project asap so that I can practice more on html/css/js before moving on to js. At the moment, I'm thinking of cloning some popular website for practices like i was doing with starbuck page.(Hmm i probs should restart the project again once i finish this)
-&lt;/div&gt;</content><author><name>Tom Tak</name></author><category term="Computer Science" /><category term="LeetCode" /><summary type="html"></summary></entry><entry><title type="html">Keep Going!</title><link href="/2021/05/05/Keep-goin.html" rel="alternate" type="text/html" title="Keep Going!" /><published>2021-05-05T00:00:00+00:00</published><updated>2021-05-05T00:00:00+00:00</updated><id>/2021/05/05/Keep%20goin</id><content type="html" xml:base="/2021/05/05/Keep-goin.html">&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;/div&gt;</content><author><name>Tom Tak</name></author><category term="Computer Science" /><category term="LeetCode" /><summary type="html"></summary></entry><entry><title type="html">Keep Going!</title><link href="/daily/2021/2021/05/05/Keep-goin" rel="alternate" type="text/html" title="Keep Going!" /><published>2021-05-05T00:00:00+00:00</published><updated>2021-05-05T00:00:00+00:00</updated><id>/daily/2021/2021/05/05/Keep%20goin</id><content type="html" xml:base="/daily/2021/2021/05/05/Keep-goin">&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;today&quot;&gt;Today&lt;/h2&gt;
 
@@ -119,7 +120,7 @@ I think its mainly due to the blog project since it just eats up large chunk of 
 Anyhow, hope i can finally finish template files for post. So, I would not need to manually template the post like now i'm doing. And i think i'm putting too much time on learning this jekyll &amp;amp; liquid stuffs rather than practicing html/css/js which i originally wanted to do.
 &lt;br /&gt;
 I better finish this project asap so that I can practice more on html/css/js before moving on to js. At the moment, I'm thinking of cloning some popular website for practices like i was doing with starbuck page.(Hmm i probs should restart the project again once i finish this)
-&lt;/div&gt;</content><author><name>Tom Tak</name></author><category term="Daily" /><summary type="html"></summary></entry><entry><title type="html">Having Fun!</title><link href="/2021/05/04/Having-Fun.html" rel="alternate" type="text/html" title="Having Fun!" /><published>2021-05-04T00:00:00+00:00</published><updated>2021-05-04T00:00:00+00:00</updated><id>/2021/05/04/Having%20Fun</id><content type="html" xml:base="/2021/05/04/Having-Fun.html">&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;/div&gt;</content><author><name>Tom Tak</name></author><category term="Daily" /><summary type="html"></summary></entry><entry><title type="html">Having Fun!</title><link href="/daily/2021/2021/05/04/Having-Fun" rel="alternate" type="text/html" title="Having Fun!" /><published>2021-05-04T00:00:00+00:00</published><updated>2021-05-04T00:00:00+00:00</updated><id>/daily/2021/2021/05/04/Having%20Fun</id><content type="html" xml:base="/daily/2021/2021/05/04/Having-Fun">&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;things-ive-done-today&quot;&gt;Things I’ve done today&lt;/h2&gt;
 
@@ -169,7 +170,7 @@ Then .. this is all for today. Hope that i wouldn't need to manually format my d
 &lt;/div&gt;
 &lt;p&gt;&lt;img src=&quot;/assets/images/blog-design.jpg&quot; alt=&quot;blog-design&quot; style=&quot;height: 900px; width: 800px;&quot; /&gt;&lt;/p&gt;
 
-&lt;!-- ![blog-design](/assets/images/blog-design.jpg); --&gt;</content><author><name>Tom Tak</name></author><category term="Daily" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/images/blog-design.jpg" /><media:content medium="image" url="/assets/images/blog-design.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Burn Out</title><link href="/2021/05/03/Burnt-out.html" rel="alternate" type="text/html" title="Burn Out" /><published>2021-05-03T00:00:00+00:00</published><updated>2021-05-03T00:00:00+00:00</updated><id>/2021/05/03/Burnt%20out</id><content type="html" xml:base="/2021/05/03/Burnt-out.html">&lt;h1 id=&quot;blog&quot;&gt;Blog&lt;/h1&gt;
+&lt;!-- ![blog-design](/assets/images/blog-design.jpg); --&gt;</content><author><name>Tom Tak</name></author><category term="Daily" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/images/blog-design.jpg" /><media:content medium="image" url="/assets/images/blog-design.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Burn Out</title><link href="/daily/2021/2021/05/03/Burnt-out" rel="alternate" type="text/html" title="Burn Out" /><published>2021-05-03T00:00:00+00:00</published><updated>2021-05-03T00:00:00+00:00</updated><id>/daily/2021/2021/05/03/Burnt%20out</id><content type="html" xml:base="/daily/2021/2021/05/03/Burnt-out">&lt;h1 id=&quot;blog&quot;&gt;Blog&lt;/h1&gt;
 
 &lt;h2 id=&quot;things-ive-done-today&quot;&gt;Things I’ve done today&lt;/h2&gt;
 
@@ -198,7 +199,7 @@ Then .. this is all for today. Hope that i wouldn't need to manually format my d
 &lt;/div&gt;
 
 &lt;!-- ![img-1](/images/img1.jpg) --&gt;
-&lt;!-- &lt;img src=&quot;/images/img1.jpg&quot; alt=&quot;img-1&quot; /&gt; --&gt;</content><author><name>Tom Tak</name></author><category term="Daily" /><summary type="html">Blog</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/images/img1.jpg" /><media:content medium="image" url="/images/img1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Let’s Build!</title><link href="/2021/05/02/Let's-Build!.html" rel="alternate" type="text/html" title="Let’s Build!" /><published>2021-05-02T00:00:00+00:00</published><updated>2021-05-02T00:00:00+00:00</updated><id>/2021/05/02/Let's%20Build!</id><content type="html" xml:base="/2021/05/02/Let's-Build!.html">&lt;h1 id=&quot;blog&quot;&gt;Blog&lt;/h1&gt;
+&lt;!-- &lt;img src=&quot;/images/img1.jpg&quot; alt=&quot;img-1&quot; /&gt; --&gt;</content><author><name>Tom Tak</name></author><category term="Daily" /><summary type="html">Blog</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/images/img1.jpg" /><media:content medium="image" url="/images/img1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Let’s Build!</title><link href="/daily/2021/2021/05/02/Let's-Build!" rel="alternate" type="text/html" title="Let’s Build!" /><published>2021-05-02T00:00:00+00:00</published><updated>2021-05-02T00:00:00+00:00</updated><id>/daily/2021/2021/05/02/Let's%20Build!</id><content type="html" xml:base="/daily/2021/2021/05/02/Let's-Build!">&lt;h1 id=&quot;blog&quot;&gt;Blog&lt;/h1&gt;
 
 &lt;h2 id=&quot;things-ive-done-today&quot;&gt;Things I’ve done today&lt;/h2&gt;
 
@@ -237,9 +238,9 @@ Then .. this is all for today. Hope that i wouldn't need to manually format my d
 &lt;/div&gt;
 
 &lt;!-- ![img-1](/images/img1.jpg) --&gt;
-&lt;!-- &lt;img src=&quot;/images/img1.jpg&quot; alt=&quot;img-1&quot; /&gt; --&gt;</content><author><name>Tom Tak</name></author><category term="Daily" /><summary type="html">Blog</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/images/img1.jpg" /><media:content medium="image" url="/images/img1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">First Post</title><link href="/2021/05/01/first.html" rel="alternate" type="text/html" title="First Post" /><published>2021-05-01T00:00:00+00:00</published><updated>2021-05-01T00:00:00+00:00</updated><id>/2021/05/01/first</id><content type="html" xml:base="/2021/05/01/first.html">&lt;h1&gt;Blog&lt;/h1&gt;
+&lt;!-- &lt;img src=&quot;/images/img1.jpg&quot; alt=&quot;img-1&quot; /&gt; --&gt;</content><author><name>Tom Tak</name></author><category term="Daily" /><summary type="html">Blog</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/images/img1.jpg" /><media:content medium="image" url="/images/img1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">First Post</title><link href="/daily/2021/2021/05/01/first" rel="alternate" type="text/html" title="First Post" /><published>2021-05-01T00:00:00+00:00</published><updated>2021-05-01T00:00:00+00:00</updated><id>/daily/2021/2021/05/01/first</id><content type="html" xml:base="/daily/2021/2021/05/01/first">&lt;h1&gt;Blog&lt;/h1&gt;
 &lt;p&gt;Finally Start building my own blog to record every day life!&lt;/p&gt;
-&lt;img src=&quot;/images/img1.jpg&quot; alt=&quot;img-1&quot; /&gt;</content><author><name>jill</name></author><category term="Daily" /><summary type="html">Blog Finally Start building my own blog to record every day life!</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/images/img1.jpg" /><media:content medium="image" url="/images/img1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Zero Post</title><link href="/2021/04/30/zero.html" rel="alternate" type="text/html" title="Zero Post" /><published>2021-04-30T00:00:00+00:00</published><updated>2021-04-30T00:00:00+00:00</updated><id>/2021/04/30/zero</id><content type="html" xml:base="/2021/04/30/zero.html">&lt;p&gt;Lorem ipsum daaolor sit amet consectetur adipisicing elit. Eos, rerum laudantium
+&lt;img src=&quot;/images/img1.jpg&quot; alt=&quot;img-1&quot; /&gt;</content><author><name>jill</name></author><category term="Daily" /><summary type="html">Blog Finally Start building my own blog to record every day life!</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/images/img1.jpg" /><media:content medium="image" url="/images/img1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Zero Post</title><link href="/daily/2021/2021/04/30/zero" rel="alternate" type="text/html" title="Zero Post" /><published>2021-04-30T00:00:00+00:00</published><updated>2021-04-30T00:00:00+00:00</updated><id>/daily/2021/2021/04/30/zero</id><content type="html" xml:base="/daily/2021/2021/04/30/zero">&lt;p&gt;Lorem ipsum daaolor sit amet consectetur adipisicing elit. Eos, rerum laudantium
 ad consequuntur ex voluptatum, fugiat vero dicta accusamus magnam, veritatis
 nihil aliquam illo. Distinctio officiis, mollitia ex odio ut modi illum, quasi&lt;/p&gt;
 
