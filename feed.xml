@@ -1,4 +1,34 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://xkrdudrlf.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://xkrdudrlf.github.io/" rel="alternate" type="text/html" /><updated>2021-05-09T16:39:18+00:00</updated><id>https://xkrdudrlf.github.io/feed.xml</id><title type="html">Tom’s Time Capsule</title><subtitle>github blog with jekyll-paginate-v2 (supports paginations for multiple categories) will link it to the github blog site via Travis)</subtitle><entry><title type="html">Reset</title><link href="https://xkrdudrlf.github.io/daily/2021/2021/05/08/Reset" rel="alternate" type="text/html" title="Reset" /><published>2021-05-08T00:00:00+00:00</published><updated>2021-05-08T00:00:00+00:00</updated><id>https://xkrdudrlf.github.io/daily/2021/2021/05/08/Reset</id><content type="html" xml:base="https://xkrdudrlf.github.io/daily/2021/2021/05/08/Reset">&lt;!-- prettier-ignore --&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://xkrdudrlf.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://xkrdudrlf.github.io/" rel="alternate" type="text/html" /><updated>2021-05-09T16:48:39+00:00</updated><id>https://xkrdudrlf.github.io/feed.xml</id><title type="html">Tom’s Time Capsule</title><subtitle>github blog with jekyll-paginate-v2 (supports paginations for multiple categories) will link it to the github blog site via Travis)</subtitle><entry><title type="html">Let’s Finish</title><link href="https://xkrdudrlf.github.io/daily/2021/2021/05/09/Let's-Finish" rel="alternate" type="text/html" title="Let’s Finish" /><published>2021-05-09T00:00:00+00:00</published><updated>2021-05-09T00:00:00+00:00</updated><id>https://xkrdudrlf.github.io/daily/2021/2021/05/09/Let's%20Finish</id><content type="html" xml:base="https://xkrdudrlf.github.io/daily/2021/2021/05/09/Let's-Finish">&lt;!-- prettier-ignore --&gt;
+&lt;div class=&quot;checkbox yellow&quot;&gt;
+  &lt;span class=&quot;title&quot;&gt;Let's Finish&lt;/span&gt;
+  &lt;ul class=&quot;list&quot;&gt;
+    &lt;li&gt;Blog - navBar current feature implemented&lt;/li&gt;
+    &lt;li&gt;Blog - navBar total posts display feature implemented&lt;/li&gt;
+    &lt;li&gt;Blog - Post design finished and implmented Post template based on the design&lt;/li&gt;
+    &lt;li&gt;Blog - Implemented sub-pagination feature in Post Design&lt;/li&gt;
+    &lt;li&gt;Fixed bugs with regards to the navBar route&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;checkbox blue&quot;&gt;
+  &lt;span class=&quot;title&quot;&gt;Tommorrow&lt;/span&gt;
+  &lt;ul class=&quot;list&quot;&gt;
+    &lt;li&gt;Fix minor bug with navBar completely&lt;/li&gt;
+    &lt;li&gt;Design and implement a header to the blog&lt;/li&gt;
+    &lt;li&gt;Add a comment feature on each post&lt;/li&gt;
+    &lt;li&gt;Try wrapping up the project by finishing above 3 features&lt;/li&gt;
+    &lt;li&gt;Try solving 2 LeetCode problems (Trie/Stack/Queue)&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+  &lt;!-- excerpt-start --&gt;
+  It was too busy today.. and its alreayd almost 2am.. All i did was to
+  implement features on my blog. I can see some progresses and feel that i
+  almost finished this project. Lets wrap it up till wednesday..
+  &lt;br /&gt;
+  btw.. i really need to do some DS/Algo on LeetCode :..(
+&lt;/p&gt;</content><author><name>Tom Tak</name></author><category term="Daily" /><category term="2021" /><summary type="html">Let's Finish Blog - navBar current feature implemented Blog - navBar total posts display feature implemented Blog - Post design finished and implmented Post template based on the design Blog - Implemented sub-pagination feature in Post Design Fixed bugs with regards to the navBar route</summary></entry><entry><title type="html">Reset</title><link href="https://xkrdudrlf.github.io/daily/2021/2021/05/08/Reset" rel="alternate" type="text/html" title="Reset" /><published>2021-05-08T00:00:00+00:00</published><updated>2021-05-08T00:00:00+00:00</updated><id>https://xkrdudrlf.github.io/daily/2021/2021/05/08/Reset</id><content type="html" xml:base="https://xkrdudrlf.github.io/daily/2021/2021/05/08/Reset">&lt;!-- prettier-ignore --&gt;
 &lt;div class=&quot;checkbox yellow&quot;&gt;
   &lt;span class=&quot;title&quot;&gt;Today&lt;/span&gt;
   &lt;ul class=&quot;list&quot;&gt;
