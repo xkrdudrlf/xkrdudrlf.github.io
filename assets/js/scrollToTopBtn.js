@@ -5,21 +5,25 @@ window.onbeforeunload = function () {
 
 const scrollToTopBtn = document.getElementById("scrollToTopBtn");
 let pivotY = -1;
+let defaultPosition, defaultTop, defaultBtm;
 function scrollFunc() {
   let yDistanceFromViewPort = scrollToTopBtn.getBoundingClientRect().bottom;
   let currY = window.scrollY;
 
   if (yDistanceFromViewPort <= window.innerHeight - 50 && pivotY === -1) {
     pivotY = currY;
+    defaultPosition = scrollToTopBtn.style.position;
+    defaultTop = scrollToTopBtn.style.top;
+    defaultBtm = scrollToTopBtn.style.bottom;
     scrollToTopBtn.style.position = "fixed";
     scrollToTopBtn.style.top = "unset";
     scrollToTopBtn.style.bottom = "50px";
   }
   if (pivotY > currY && pivotY !== -1) {
     pivotY = -1;
-    scrollToTopBtn.style.position = "relative";
-    scrollToTopBtn.style.top = "50px";
-    scrollToTopBtn.style.bottom = "unset";
+    scrollToTopBtn.style.position = defaultPosition;
+    scrollToTopBtn.style.top = defaultTop;
+    scrollToTopBtn.style.bottom = defaultTopBtm;
   }
 }
 window.addEventListener("scroll", scrollFunc);
