@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://xkrdudrlf.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://xkrdudrlf.github.io/" rel="alternate" type="text/html" /><updated>2021-05-11T12:50:19+00:00</updated><id>https://xkrdudrlf.github.io/feed.xml</id><title type="html">Tom’s Time Capsule</title><subtitle>github blog with jekyll-paginate-v2 (supports paginations for multiple categories) will link it to the github blog site via Travis)</subtitle><entry><title type="html">Personal Blog</title><link href="https://xkrdudrlf.github.io/computer%20science/project/2021/05/11/Personal-Blog" rel="alternate" type="text/html" title="Personal Blog" /><published>2021-05-11T00:00:00+00:00</published><updated>2021-05-11T00:00:00+00:00</updated><id>https://xkrdudrlf.github.io/computer%20science/project/2021/05/11/Personal%20Blog</id><content type="html" xml:base="https://xkrdudrlf.github.io/computer%20science/project/2021/05/11/Personal-Blog">&lt;div class=&quot;checkbox blue&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://xkrdudrlf.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://xkrdudrlf.github.io/" rel="alternate" type="text/html" /><updated>2021-05-11T13:22:47+00:00</updated><id>https://xkrdudrlf.github.io/feed.xml</id><title type="html">Tom’s Time Capsule</title><subtitle>github blog with jekyll-paginate-v2 (supports paginations for multiple categories) will link it to the github blog site via Travis)</subtitle><entry><title type="html">Personal Blog</title><link href="https://xkrdudrlf.github.io/computer%20science/project/2021/05/11/Personal-Blog" rel="alternate" type="text/html" title="Personal Blog" /><published>2021-05-11T00:00:00+00:00</published><updated>2021-05-11T00:00:00+00:00</updated><id>https://xkrdudrlf.github.io/computer%20science/project/2021/05/11/Personal%20Blog</id><content type="html" xml:base="https://xkrdudrlf.github.io/computer%20science/project/2021/05/11/Personal-Blog">&lt;div class=&quot;checkbox blue&quot;&gt;
   &lt;span class=&quot;title&quot;&gt;Project Period&lt;/span&gt;
   &lt;ul class=&quot;list&quot;&gt;
     &lt;li&gt;2021.05.03 ~ 2021.05.11(8 days)&lt;/li&gt;
@@ -24,15 +24,12 @@
   I've already tried documenting how I've worked this project out in &lt;a href=&quot;https://drive.google.com/file/d/1lPEZ2S2H9H7TzRyUsoujRQBjT8gLaeGs/view?usp=sharing&quot;&gt;MS Word document&lt;/a&gt;. 
   Plus, &lt;a href=&quot;https://drive.google.com/file/d/1OlRWm-wyYyH6370BLH9LoysII9_l6aIv/view?usp=sharing&quot;&gt;Architectural design&lt;/a&gt; is also available just in case the img above is too small to see.
 &lt;/p&gt;
-
 &lt;h1&gt;Think and plan ahead before action&lt;/h1&gt;
-
 &lt;p&gt;
   During the project, I think I got confused a lot especially about the details of a design.
   And I think it is because I really haven't thought my design through before the start of 
   implementation phase. In other words, the initial skeleton design lacked details.
 &lt;/p&gt;
-
 &lt;p&gt;
   As a result, I had to design the lacked details along the way during the implmentation 
   phase which caused lot of confusion and inefficiency.
@@ -41,12 +38,53 @@
   But, it would've been not that chaotic as I've gone through this time, if I had carefully designed
   the skeleton in the initial design phase. I was just rushed to put something out there, being impatient.
 &lt;/p&gt;
-
 &lt;p&gt;
  So, if I do the project next time, I will probably try to put more time and effort in the 
  initial design phase to minimize the possible confusion which can incur during the next
  implmentation phase.
-&lt;/p&gt;</content><author><name>Tom Tak</name></author><category term="Computer Science" /><summary type="html">Project Period 2021.05.03 ~ 2021.05.11(8 days) Stack HTML CSS JavaScript Github Pages with Jekyll/Liquid Travis CI Architectural Design</summary></entry><entry><title type="html">Finished a blog project</title><link href="https://xkrdudrlf.github.io/daily/2021/2021/05/10/Finished-building-up-a-blog" rel="alternate" type="text/html" title="Finished a blog project" /><published>2021-05-10T00:00:00+00:00</published><updated>2021-05-10T00:00:00+00:00</updated><id>https://xkrdudrlf.github.io/daily/2021/2021/05/10/Finished%20building%20up%20a%20blog</id><content type="html" xml:base="https://xkrdudrlf.github.io/daily/2021/2021/05/10/Finished-building-up-a-blog">&lt;!-- prettier-ignore --&gt;
+&lt;/p&gt;</content><author><name>Tom Tak</name></author><category term="Computer Science" /><summary type="html">Project Period 2021.05.03 ~ 2021.05.11(8 days) Stack HTML CSS JavaScript Github Pages with Jekyll/Liquid Travis CI Architectural Design</summary></entry><entry><title type="html">Final Touch</title><link href="https://xkrdudrlf.github.io/daily/2021/2021/05/11/%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%99%84%EA%B3%B5" rel="alternate" type="text/html" title="Final Touch" /><published>2021-05-11T00:00:00+00:00</published><updated>2021-05-11T00:00:00+00:00</updated><id>https://xkrdudrlf.github.io/daily/2021/2021/05/11/%EB%B8%94%EB%A1%9C%EA%B7%B8%20%EC%99%84%EA%B3%B5</id><content type="html" xml:base="https://xkrdudrlf.github.io/daily/2021/2021/05/11/%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%99%84%EA%B3%B5">&lt;!-- prettier-ignore --&gt;
+&lt;div class=&quot;checkbox yellow&quot;&gt;
+  &lt;span class=&quot;title&quot;&gt;Today&lt;/span&gt;
+  &lt;ul class=&quot;list&quot;&gt;
+    &lt;li&gt;블로그 고정 ^Top 버튼 구현 완료&lt;/li&gt;
+    &lt;li&gt;블로그 프로젝트 관련 문서화 작업 후 포스팅 완료&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;checkbox blue&quot;&gt;
+  &lt;span class=&quot;title&quot;&gt;Tommorrow&lt;/span&gt;
+  &lt;ul class=&quot;list&quot;&gt;
+    &lt;li&gt;자바스크립트 13강 복습하고 내용 필기해서 문서화하기&lt;/li&gt;
+    &lt;li&gt;Leetcode 3문제 풀어보기(String Manipulation,Merge Sort)&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+  &lt;!-- excerpt-start --&gt;
+  오늘 드디어 내 생애 첫 블로그를 완공했다. 지난 주 월요일부터 대충 일주일 정도
+  걸린 셈인데.. 만들어놓고 나니 후련하기도 하고 또 내 딴에 새끼(?)라고 자꾸
+  눈이가고 뭔가 자꾸 또 뜯어고치고 싶다. &lt;strike&gt;(다메다요 브라더)&lt;/strike&gt; 이제
+  그만 자제해야겠지.. 디자이너가 될거는 아니자나.. 코딩도 할게 산더미인데,
+  어찌됬건 이번 프로젝트를 통해 HTML/CSS는 대충 연습한 것 같고
+  &lt;strike
+    &gt;(사실 HTML/CSS 보다는 Jekyll 이랑 다른 여타 잡다한 것들을 픽업하느라 대부분
+    시간을 보낸듯.. 아 그리고 쓸데없이 꺠알 디자인 해보겠다 시간낭비..)&lt;/strike
+  &gt;
+  다음 단계인 자바스크립트를 본격적으로 파야겠다. 그리고 복습이 끝나면 다음
+  프로젝트를 생각해보면 되겠지.. 흠..
+&lt;/p&gt;
+&lt;p&gt;
+  아 그리고 쓰다 알게 된 건데 이 핸드라이팅 폰트고 스탠다드 폰트고 한글은 지원을
+  안하는구나.. 한글을 위한 폰트를 또 따로 찾아야되나(귀찮) 그리고 한글이랑
+  영어를 동시에 쓰게되면 토글 버튼을 만들어서 선택적으로 볼 수 있게 해주고
+  싶은데.. 이렇게 하나하나 추가하다보면 정말 이 블로그 프로젝트는 끝이 없을
+  듯하다. 사실 다크모드도 한 번 구현해보고 싶었는데..
+&lt;/p&gt;
+&lt;p&gt;
+  그동안 블로그 프로젝트에 하루종일 매달리느라 자료구조/알고리즘 릿콧 문제푸는걸
+  거의 안하다시피 했는데, 내일부터는 아니 이거 쓰고나서 오늘밤 부터라도 다시
+  불을 붙여서 열심히 풀도록 해야겠다. 갈 길이 멀다!
+&lt;/p&gt;</content><author><name>Tom Tak</name></author><category term="Daily" /><summary type="html">Today 블로그 고정 ^Top 버튼 구현 완료 블로그 프로젝트 관련 문서화 작업 후 포스팅 완료</summary></entry><entry><title type="html">Finished a blog project</title><link href="https://xkrdudrlf.github.io/daily/2021/2021/05/10/Finished-building-up-a-blog" rel="alternate" type="text/html" title="Finished a blog project" /><published>2021-05-10T00:00:00+00:00</published><updated>2021-05-10T00:00:00+00:00</updated><id>https://xkrdudrlf.github.io/daily/2021/2021/05/10/Finished%20building%20up%20a%20blog</id><content type="html" xml:base="https://xkrdudrlf.github.io/daily/2021/2021/05/10/Finished-building-up-a-blog">&lt;!-- prettier-ignore --&gt;
 &lt;div class=&quot;checkbox yellow&quot;&gt;
   &lt;span class=&quot;title&quot;&gt;Today&lt;/span&gt;
   &lt;ul class=&quot;list&quot;&gt;
