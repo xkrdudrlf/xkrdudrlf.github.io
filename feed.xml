@@ -1,4 +1,52 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://xkrdudrlf.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://xkrdudrlf.github.io/" rel="alternate" type="text/html" /><updated>2021-05-11T07:46:00+00:00</updated><id>https://xkrdudrlf.github.io/feed.xml</id><title type="html">Tom’s Time Capsule</title><subtitle>github blog with jekyll-paginate-v2 (supports paginations for multiple categories) will link it to the github blog site via Travis)</subtitle><entry><title type="html">Finished a blog project</title><link href="https://xkrdudrlf.github.io/daily/2021/2021/05/10/Finished-building-up-a-blog" rel="alternate" type="text/html" title="Finished a blog project" /><published>2021-05-10T00:00:00+00:00</published><updated>2021-05-10T00:00:00+00:00</updated><id>https://xkrdudrlf.github.io/daily/2021/2021/05/10/Finished%20building%20up%20a%20blog</id><content type="html" xml:base="https://xkrdudrlf.github.io/daily/2021/2021/05/10/Finished-building-up-a-blog">&lt;!-- prettier-ignore --&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://xkrdudrlf.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://xkrdudrlf.github.io/" rel="alternate" type="text/html" /><updated>2021-05-11T12:48:11+00:00</updated><id>https://xkrdudrlf.github.io/feed.xml</id><title type="html">Tom’s Time Capsule</title><subtitle>github blog with jekyll-paginate-v2 (supports paginations for multiple categories) will link it to the github blog site via Travis)</subtitle><entry><title type="html">Personal Blog</title><link href="https://xkrdudrlf.github.io/computer%20science/project/2021/05/11/Personal-Blog" rel="alternate" type="text/html" title="Personal Blog" /><published>2021-05-11T00:00:00+00:00</published><updated>2021-05-11T00:00:00+00:00</updated><id>https://xkrdudrlf.github.io/computer%20science/project/2021/05/11/Personal%20Blog</id><content type="html" xml:base="https://xkrdudrlf.github.io/computer%20science/project/2021/05/11/Personal-Blog">&lt;div class=&quot;checkbox blue&quot;&gt;
+  &lt;span class=&quot;title&quot;&gt;Project Period&lt;/span&gt;
+  &lt;ul class=&quot;list&quot;&gt;
+    &lt;li&gt;2021.05.03 ~ 2021.05.11(8 days)&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;checkbox yellow&quot;&gt;
+  &lt;span class=&quot;title&quot;&gt;Stack&lt;/span&gt;
+  &lt;ul class=&quot;list&quot;&gt;
+    &lt;li&gt;HTML&lt;/li&gt;
+    &lt;li&gt;CSS&lt;/li&gt;
+    &lt;li&gt;JavaScript&lt;/li&gt;
+    &lt;li&gt;Github Pages with Jekyll/Liquid&lt;/li&gt;
+    &lt;li&gt;Travis CI&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;checkbox red&quot; style=&gt;
+  &lt;span class=&quot;title&quot;&gt;Architectural Design&lt;/span&gt;
+  &lt;img src=&quot;/assets/images/blog-project-flowchart.jpg&quot; alt=&quot;architectural-design-img&quot;&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+  &lt;!-- excerpt-start --&gt;
+  I've already tried documenting how I've worked this project out in &lt;a href=&quot;https://drive.google.com/file/d/1lPEZ2S2H9H7TzRyUsoujRQBjT8gLaeGs/view?usp=sharing&quot;&gt;MS Word document&lt;/a&gt;. 
+  Plus, &lt;a href=&quot;https://drive.google.com/file/d/1OlRWm-wyYyH6370BLH9LoysII9_l6aIv/view?usp=sharing&quot;&gt;Architectural design&lt;/a&gt; is also available just in case the img above is too small to see.
+&lt;/p&gt;
+
+&lt;h1&gt;Think and plan ahead before action&lt;/h1&gt;
+
+&lt;p&gt;
+  During the project, I think I got confused a lot especially about the details of a design.
+  And I think it is because I really haven't thought my design through before the start of 
+  implementation phase. In other words, the initial skeleton design lacked details.
+&lt;/p&gt;
+
+&lt;p&gt;
+  As a result, I had to design the lacked details along the way during the implmentation 
+  phase which caused lot of confusion and inefficiency.
+  I don't think I still can design 100% eveyrthing perfectly from the start.
+  Obviously, there can be some errors and trials at some point with regards to the design.
+  But, it would've been not that chaotic as I've gone through this time, if I had carefully designed
+  the skeleton in the initial design phase. I was just rushed to put something out there, being impatient.
+&lt;/p&gt;
+
+&lt;p&gt;
+ So, if I do the project next time, I will probably try to put more time and effort in the 
+ initial design phase to minimize the possible confusion which can incur during the next
+ implmentation phase.
+&lt;/p&gt;</content><author><name>Tom Tak</name></author><category term="Computer Science" /><summary type="html">Project Period 2021.05.03 ~ 2021.05.11(8 days) Stack HTML CSS JavaScript Github Pages with Jekyll/Liquid Travis CI Architectural Design</summary></entry><entry><title type="html">Finished a blog project</title><link href="https://xkrdudrlf.github.io/daily/2021/2021/05/10/Finished-building-up-a-blog" rel="alternate" type="text/html" title="Finished a blog project" /><published>2021-05-10T00:00:00+00:00</published><updated>2021-05-10T00:00:00+00:00</updated><id>https://xkrdudrlf.github.io/daily/2021/2021/05/10/Finished%20building%20up%20a%20blog</id><content type="html" xml:base="https://xkrdudrlf.github.io/daily/2021/2021/05/10/Finished-building-up-a-blog">&lt;!-- prettier-ignore --&gt;
 &lt;div class=&quot;checkbox yellow&quot;&gt;
   &lt;span class=&quot;title&quot;&gt;Today&lt;/span&gt;
   &lt;ul class=&quot;list&quot;&gt;
@@ -27,11 +75,13 @@
   shouldn't be my priority though I enjoyed doing it. I've got tons of things to
   learn and I am still even not good with Javascript. So I think i will just
   wrap this project up this point.
-  &lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
   Since I started building this blog up last Monday. It took exactly about a
   week for me to build this blog. I really didn't expect it to take this much
   time since I already knew how to create static pages with html/css/js.
-  &lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
   It took a bit of time until I feel like digging a rabbit hole. Firstly, I
   learnt that Github Pages is run with Jekyll, so I picked it up. Soon, I also
   realized that I need to use bit of Liquid to use Jekyll efficiently.. So i
@@ -40,7 +90,8 @@
   I still don't think I really picked up Everything completly. But, at least, I
   think I understand most of them on a conceptual level and I feel now bit
   confident with Jekyll and Liquid though I am not sure when I will use it again
-  &lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
   Since I started studying CS at Uni, I really didn't have enough time or mental
   energy. I managed to pass the courses fortunetely, but was mostly at the brink
   of mental breakdown due to my personal problems. Thanks to Corona virus, now I
@@ -48,7 +99,7 @@
   help of my family. And this is the first project ever I've done myself from
   the start to the end. Hope that this would be the turning point to put my life
   back on the route. Never Give up !
-&lt;/p&gt;</content><author><name>Tom TakA</name></author><category term="Daily" /><summary type="html">Today Implemented additional minor features(comment section with Disqus(?)/email address clipboard copy) to the blog Added Responsiveness to the blog(small,medium,(deault),large sizes)</summary></entry><entry><title type="html">Let’s Finish</title><link href="https://xkrdudrlf.github.io/daily/2021/2021/05/09/Let's-Finish" rel="alternate" type="text/html" title="Let’s Finish" /><published>2021-05-09T00:00:00+00:00</published><updated>2021-05-09T00:00:00+00:00</updated><id>https://xkrdudrlf.github.io/daily/2021/2021/05/09/Let's%20Finish</id><content type="html" xml:base="https://xkrdudrlf.github.io/daily/2021/2021/05/09/Let's-Finish">&lt;!-- prettier-ignore --&gt;
+&lt;/p&gt;</content><author><name>Tom Tak</name></author><category term="Daily" /><summary type="html">Today Implemented additional minor features(comment section with Disqus(?)/email address clipboard copy) to the blog Added Responsiveness to the blog(small,medium,(deault),large sizes)</summary></entry><entry><title type="html">Let’s Finish</title><link href="https://xkrdudrlf.github.io/daily/2021/2021/05/09/Let's-Finish" rel="alternate" type="text/html" title="Let’s Finish" /><published>2021-05-09T00:00:00+00:00</published><updated>2021-05-09T00:00:00+00:00</updated><id>https://xkrdudrlf.github.io/daily/2021/2021/05/09/Let's%20Finish</id><content type="html" xml:base="https://xkrdudrlf.github.io/daily/2021/2021/05/09/Let's-Finish">&lt;!-- prettier-ignore --&gt;
 &lt;div class=&quot;checkbox yellow&quot;&gt;
   &lt;span class=&quot;title&quot;&gt;Today&lt;/span&gt;
   &lt;ul class=&quot;list&quot;&gt;
@@ -103,66 +154,30 @@
   most hardest part for me. And The only thing left for me to do was just same
   designing and implementing phase for post/footer and bit of media queries to
   make the blog site responsive.
-  &lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
   Being hopeful, after lunch, I strated documenting what I've done so far in the
   project for the future reference and to record my learnings from this project.
   And it was also not that bad, I quite enjoyed writing it out.
-  &lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
   And after that, around dinner time, eveyrthing started getting hairy all of a
   sudden.. My vscode terminal starts not showing anything just being blank for
   no reason. And that completely sent me on a wild-goose chase since it turned
   out that there was nothing wrong with me, rahter it was due to some mysterious
   incompatibility existing between VS Code and my zsh theme (10k sth whatever).
-  &lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
   Till I finally figured that out, I literally uninstalled and installed
   everything suspcious.. literally everything.. I firstly reset my zsh thinking
   i might've modified some parts accidentally and VS Code after that. In the
   end, after finding out what is the cause, i had to revert every set up env
   back to what they were which was another pain in the neck 😥😥.
-  &lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
   Anyway... I'm just trying to think that it was an another good revision of how
   VS Code work and zsh.. (&lt;strike&gt;Nope&lt;/strike&gt;).
-&lt;/p&gt;</content><author><name>Tom Tak</name></author><category term="Daily" /><summary type="html">Today Blog website finally working with Travis CI Documented Blog Project on Word - need to put it up here on the blog later</summary></entry><entry><title type="html">Dummy LeetCode!</title><link href="https://xkrdudrlf.github.io/computer%20science/leetcode/2021/05/07/Trie" rel="alternate" type="text/html" title="Dummy LeetCode!" /><published>2021-05-07T00:00:00+00:00</published><updated>2021-05-07T00:00:00+00:00</updated><id>https://xkrdudrlf.github.io/computer%20science/leetcode/2021/05/07/Trie</id><content type="html" xml:base="https://xkrdudrlf.github.io/computer%20science/leetcode/2021/05/07/Trie">&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;today&quot;&gt;Today&lt;/h2&gt;
-
-&lt;hr /&gt;
-
-&lt;ul style=&quot;margin-left: 2rem&quot;&gt;
-  &lt;li&gt;&quot;Home(Index)&quot; Page - Finished Implementing Pagination(Functionality &amp;amp; Design)&lt;/li&gt;
-  &lt;li&gt;Figured Out Jekyll File Structure with regards to post folder location&lt;/li&gt;
-  &lt;li&gt;Navbar Links Implemented&lt;/li&gt;
-  &lt;li&gt;Trie LeetCode problem (212 Revision with solution(plain + optimized version)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;tommorrow&quot;&gt;Tommorrow&lt;/h2&gt;
-
-&lt;hr /&gt;
-
-&lt;ul style=&quot;margin-left: 2rem&quot;&gt;
-  &lt;li&gt;Configure the common template for category main page/ post page&lt;/li&gt;
-  &lt;li&gt;Finishing Designing and Implementing post.html&lt;/li&gt;
-  &lt;li&gt;Try solving 2 LeetCode problems (Trie/Stack/Queue)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;blah-blah-blah&quot;&gt;Blah, Blah, Blah&lt;/h2&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div style=&quot;padding-left: 15px;&quot;&gt;
-&lt;!-- excerpt-start --&gt;
-Nowadays, i keep studying more than 8 hrs per day though i bludges for a while in the day.
-I think its mainly due to the blog project since it just eats up large chunk of time easily. And I dont think i am fully concentrated while i'm doing the project compared to taking a course since all i do for project is mostly a series of &quot;Googling &amp;amp; Being Frustrated for a while&quot;. 
-&lt;br /&gt;
-Anyhow, hope i can finally finish template files for post. So, I would not need to manually template the post like now i'm doing. And i think i'm putting too much time on learning this jekyll &amp;amp; liquid stuffs rather than practicing html/css/js which i originally wanted to do.
-&lt;br /&gt;
-I better finish this project asap so that I can practice more on html/css/js before moving on to js. At the moment, I'm thinking of cloning some popular website for practices like i was doing with starbuck page.(Hmm i probs should restart the project again once i finish this)
-&lt;/div&gt;</content><author><name>Tom Tak</name></author><category term="Computer Science" /><summary type="html"></summary></entry><entry><title type="html">Keep Going!</title><link href="https://xkrdudrlf.github.io/daily/2021/2021/05/05/Keep-goin" rel="alternate" type="text/html" title="Keep Going!" /><published>2021-05-05T00:00:00+00:00</published><updated>2021-05-05T00:00:00+00:00</updated><id>https://xkrdudrlf.github.io/daily/2021/2021/05/05/Keep%20goin</id><content type="html" xml:base="https://xkrdudrlf.github.io/daily/2021/2021/05/05/Keep-goin">&lt;!-- prettier-ignore --&gt;
+&lt;/p&gt;</content><author><name>Tom Tak</name></author><category term="Daily" /><summary type="html">Today Blog website finally working with Travis CI Documented Blog Project on Word - need to put it up here on the blog later</summary></entry><entry><title type="html">Dummy LeetCode!</title><link href="https://xkrdudrlf.github.io/computer%20science/leetcode/2021/05/07/Trie" rel="alternate" type="text/html" title="Dummy LeetCode!" /><published>2021-05-07T00:00:00+00:00</published><updated>2021-05-07T00:00:00+00:00</updated><id>https://xkrdudrlf.github.io/computer%20science/leetcode/2021/05/07/Trie</id><content type="html" xml:base="https://xkrdudrlf.github.io/computer%20science/leetcode/2021/05/07/Trie">Dummy Post</content><author><name>Tom Tak</name></author><category term="Computer Science" /><summary type="html">Dummy Post</summary></entry><entry><title type="html">Keep Going!</title><link href="https://xkrdudrlf.github.io/daily/2021/2021/05/05/Keep-goin" rel="alternate" type="text/html" title="Keep Going!" /><published>2021-05-05T00:00:00+00:00</published><updated>2021-05-05T00:00:00+00:00</updated><id>https://xkrdudrlf.github.io/daily/2021/2021/05/05/Keep%20goin</id><content type="html" xml:base="https://xkrdudrlf.github.io/daily/2021/2021/05/05/Keep-goin">&lt;!-- prettier-ignore --&gt;
 &lt;div class=&quot;checkbox yellow&quot;&gt;
   &lt;span class=&quot;title&quot;&gt;Today&lt;/span&gt;
   &lt;ul class=&quot;list&quot;&gt;
@@ -189,12 +204,14 @@ I better finish this project asap so that I can practice more on html/css/js bef
   large chunk of time easily. And I dont think i am fully concentrated while i'm
   doing the project compared to taking a course since all i do for project is
   mostly a series of &quot;Googling &amp; Being Frustrated for a while&quot;.
-  &lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
   Anyhow, hope i can finally finish template files for post. So, I would not
   need to manually template the post like now i'm doing. And i think i'm putting
   too much time on learning this jekyll &amp; liquid stuffs rather than practicing
   html/css/js which i originally wanted to do.
-  &lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
   I better finish this project asap so that I can practice more on html/css/js
   before moving on to js. At the moment, I'm thinking of cloning some popular
   website for practices like i was doing with starbuck page.(Hmm i probs should
@@ -225,29 +242,32 @@ I better finish this project asap so that I can practice more on html/css/js bef
   was much harder than just coding it up since I'm kinda perfectionist :.. (
   Anyway, i couldn't keep being stuck at the designing stage forever, so i
   managed to compromised myself with a basic and commmon design structure.
-  &lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
   Before then, my imagination kinda exploded and i was thinking of lots of crazy
   themes for my blog, which must be difficult to implement as well. Those were
   simply not feasible considering my current skillset. I would probably end up
   procrastinating after all since it would be too overwhelming to implement
   those shiny stuffs I imagined at first.
-  &lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
   And... tah da~~ The image below on this post is the blog design i drew myself
   before having started buidling this blog up today.
-  &lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
   I still need to change a bit of details on Latest Posts section and might add
   some more components to it but anyway.. At least it got me going and I'm glad
   i've moved on with this design. Not sure how my blog would look like to others
   yet, but at least to me it looks cool (my baby.. of course)
-  &lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
   I probably should work more on DS/Algo tomorrow though.. since i've been
   neglecting the subject since this blog project took too much time than i
   expected.
-  &lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
   Then .. this is all for today. Hope that i wouldn't need to manually format my
   daily post md file soon !! Gnight :))
-  &lt;br /&gt;
-
   &lt;img src=&quot;/assets/images/blog-design.jpg&quot; alt=&quot;blog-design&quot; /&gt;
   (Hover over the Image to enlarge it 😁)
 &lt;/p&gt;</content><author><name>Tom Tak</name></author><category term="Daily" /><summary type="html">Today Complete a basic skeleton structure of a blog Implemented Header/Profile/Navbar(Design Structure Only) Tried 2 Trie LeetCode problems (211 solved, 212 TLE for the worst case)</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://xkrdudrlf.github.io/assets/images/blog-design.jpg" /><media:content medium="image" url="https://xkrdudrlf.github.io/assets/images/blog-design.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Burn Out</title><link href="https://xkrdudrlf.github.io/daily/2021/2021/05/03/Burnt-out" rel="alternate" type="text/html" title="Burn Out" /><published>2021-05-03T00:00:00+00:00</published><updated>2021-05-03T00:00:00+00:00</updated><id>https://xkrdudrlf.github.io/daily/2021/2021/05/03/Burnt%20out</id><content type="html" xml:base="https://xkrdudrlf.github.io/daily/2021/2021/05/03/Burnt-out">&lt;div class=&quot;checkbox yellow&quot;&gt;
@@ -295,17 +315,20 @@ I better finish this project asap so that I can practice more on html/css/js bef
   to-do-list, but never dare to start at least till yesterday. So, I wasn't
   planning to do this today at all though i thought i will at some point in the
   future.
-  &lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
   Initially, I simply thought that my front-end dev skills aren't good enough
   yet to build a blog wesbite since I'm actually still at a very early stage of
   front-end development. I just had finished the basics of HTML and CSS(Sass)
   course 2 days ago.
-  &lt;br /&gt;
+&lt;/p&gt;  
+&lt;p&gt;
   Still, I kept thinking that I really need to blog my daily life or learning
   for many reasons. First one I could think of was that it might help me to get
   a job in the future since the recruiters might want to know how I've been
   studying so far and they would be able to check those easily from my blog.
-  &lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
   But, more than anything, it was to calm me down from being depressed and
   feeling anxious. I think I studied not that bad last month, but I kept feeling
   worried if I've been doing alright. So, I had to keep checking where I'm up to
@@ -313,13 +336,15 @@ I better finish this project asap so that I can practice more on html/css/js bef
   finally realised that I need something visual to show the workloads I've done
   and the thing could be my blog since i will record my daily learning there and
   be able to check them easily if i want to.
-  &lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
   Anyway, so i tried buidling damn blog today. My original thought was to finish
   building it today within a few hours and how naive I was !! 😂😂 I already got
   stuck with installing ruby on my WSL, which was very painful. I bumped into
   lot of diffrent error messages which i barely could understand at all. I
   literally spent all my morning time wiht installing damn ruby on my WSL.
-  &lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
   Even after that, it again took me another few hours to figure out how jekyll
   exactly works with its own structure and liquid, which i've never seen before.
   Anyway, I finally figured it out now and its almost 12am 😥😥. And my blog
