@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://xkrdudrlf.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://xkrdudrlf.github.io/" rel="alternate" type="text/html" /><updated>2021-05-13T14:27:12+00:00</updated><id>https://xkrdudrlf.github.io/feed.xml</id><title type="html">Tom’s Time Capsule</title><subtitle>github blog with jekyll-paginate-v2 (supports paginations for multiple categories) will link it to the github blog site via Travis)</subtitle><entry><title type="html">Event Propagation</title><link href="https://xkrdudrlf.github.io/computer%20science/javascript/2021/05/13/Event-Propagation" rel="alternate" type="text/html" title="Event Propagation" /><published>2021-05-13T00:00:00+00:00</published><updated>2021-05-13T00:00:00+00:00</updated><id>https://xkrdudrlf.github.io/computer%20science/javascript/2021/05/13/Event%20Propagation</id><content type="html" xml:base="https://xkrdudrlf.github.io/computer%20science/javascript/2021/05/13/Event-Propagation">&lt;p&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://xkrdudrlf.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://xkrdudrlf.github.io/" rel="alternate" type="text/html" /><updated>2021-05-13T14:47:15+00:00</updated><id>https://xkrdudrlf.github.io/feed.xml</id><title type="html">Tom’s Time Capsule</title><subtitle>github blog with jekyll-paginate-v2 (supports paginations for multiple categories) will link it to the github blog site via Travis)</subtitle><entry><title type="html">Event Propagation</title><link href="https://xkrdudrlf.github.io/computer%20science/javascript/2021/05/13/Event-Propagation" rel="alternate" type="text/html" title="Event Propagation" /><published>2021-05-13T00:00:00+00:00</published><updated>2021-05-13T00:00:00+00:00</updated><id>https://xkrdudrlf.github.io/computer%20science/javascript/2021/05/13/Event%20Propagation</id><content type="html" xml:base="https://xkrdudrlf.github.io/computer%20science/javascript/2021/05/13/Event-Propagation">&lt;p&gt;&lt;/p&gt;
 &lt;h1&gt;Event Propagation: Capturing and Bubbling&lt;/h1&gt;
 &lt;p&gt;
   &lt;!-- excerpt-start --&gt;
@@ -22,11 +22,17 @@
   &lt;br /&gt;
   &lt;b&gt;Inside .addEventListener:&lt;/b&gt;
   &lt;br /&gt;
-  &lt;pre&gt;
-    * e.target: indicates where the event happened initially.
-    * e.currentTarget: indicates the target to which the eventListener is
-    * e.stopPropagation: stops further event propagation to its parents.
-  &lt;/pre&gt;
+  &lt;span style=&quot;margin-left: 1rem&quot;
+    &gt;- e.target: indicates where the event happened initially.&lt;/span
+  &gt;
+  &lt;br /&gt;
+  &lt;span style=&quot;margin-left: 1rem&quot;
+    &gt;- e.currentTarget: indicates the target to which the eventListener is&lt;/span
+  &gt;
+  &lt;br /&gt;
+  &lt;span style=&quot;margin-left: 1rem&quot;
+    &gt;- e.stopPropagation: stops further event propagaion to its parents.&lt;/span
+  &gt;
 &lt;/p&gt;
 
 &lt;h1&gt;Event Delegation&lt;/h1&gt;
