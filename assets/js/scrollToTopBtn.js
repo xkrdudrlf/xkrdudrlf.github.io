@@ -1,7 +1,7 @@
 // Force the page start from top when refreshed.
-window.onbeforeunload = function () {
-  window.scrollTo(0, 0);
-};
+// window.onbeforeunload = function () {
+//   window.scrollTo(0, 0);
+// };
 
 const scrollToTopBtn = document.getElementById("scrollToTopBtn");
 let pivotY = -1;

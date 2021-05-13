@@ -1,4 +1,112 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://xkrdudrlf.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://xkrdudrlf.github.io/" rel="alternate" type="text/html" /><updated>2021-05-11T14:05:37+00:00</updated><id>https://xkrdudrlf.github.io/feed.xml</id><title type="html">Tom’s Time Capsule</title><subtitle>github blog with jekyll-paginate-v2 (supports paginations for multiple categories) will link it to the github blog site via Travis)</subtitle><entry><title type="html">Personal Blog</title><link href="https://xkrdudrlf.github.io/computer%20science/project/2021/05/11/Personal-Blog" rel="alternate" type="text/html" title="Personal Blog" /><published>2021-05-11T00:00:00+00:00</published><updated>2021-05-11T00:00:00+00:00</updated><id>https://xkrdudrlf.github.io/computer%20science/project/2021/05/11/Personal%20Blog</id><content type="html" xml:base="https://xkrdudrlf.github.io/computer%20science/project/2021/05/11/Personal-Blog">&lt;div class=&quot;checkbox blue&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://xkrdudrlf.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://xkrdudrlf.github.io/" rel="alternate" type="text/html" /><updated>2021-05-13T12:50:52+00:00</updated><id>https://xkrdudrlf.github.io/feed.xml</id><title type="html">Tom’s Time Capsule</title><subtitle>github blog with jekyll-paginate-v2 (supports paginations for multiple categories) will link it to the github blog site via Travis)</subtitle><entry><title type="html">395. Longest Substring with At Least K Repeating Characters</title><link href="https://xkrdudrlf.github.io/computer%20science/leetcode/2021/05/13/395" rel="alternate" type="text/html" title="395. Longest Substring with At Least K Repeating Characters" /><published>2021-05-13T00:00:00+00:00</published><updated>2021-05-13T00:00:00+00:00</updated><id>https://xkrdudrlf.github.io/computer%20science/leetcode/2021/05/13/395</id><content type="html" xml:base="https://xkrdudrlf.github.io/computer%20science/leetcode/2021/05/13/395">&lt;!-- prettier-ignore --&gt;
+&lt;h1&gt;Description of Problem&lt;/h1&gt;
+&lt;p&gt;
+  &lt;!-- excerpt-start --&gt;
+  This problem is to find a longest substring where each character of the
+  substring repeats at least k times in the substring.
+&lt;/p&gt;
+&lt;p&gt;
+  For example, if we are given (&quot;aabbabcc&quot;, 3) as an input, then we need to find
+  a longest substring of &quot;aabbabcc&quot; where each character of the substring
+  repeats at least 3 times in the substring. In this case, the answer would be
+  &quot;aabbab&quot; since there are at least 3 &quot;a&quot; and &quot;b&quot; in &quot;aabbab&quot;.
+&lt;/p&gt;
+
+&lt;h1&gt;Analysis Template&lt;/h1&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;div class=&quot;checkbox yellow&quot;&gt;
+  &lt;span class=&quot;title-sm&quot;&gt;Input&lt;/span&gt;
+  &lt;ul class=&quot;list-no-style&quot;&gt;
+    &lt;li&gt;s : a string to search for the longest substring&lt;/li&gt;
+    &lt;li&gt;
+      k : the number of minimum repeat for each character in the substring
+    &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;span class=&quot;title-sm m-sm&quot;&gt;Output&lt;/span&gt;
+  &lt;ul class=&quot;list-no-style&quot;&gt;
+    &lt;li&gt;A length of the longest substr with at least k repeating characters&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;span class=&quot;title-sm m-sm&quot;&gt;Constraints&lt;/span&gt;
+  &lt;ul class=&quot;list-no-style&quot;&gt;
+    &lt;li&gt;1 &lt;= s.length &lt;= 10&lt;sup&gt;4&lt;/sup&gt;&lt;/li&gt;
+    &lt;li&gt;1 &lt;= k &lt;= 10&lt;sup&gt;5&lt;/sup&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;span class=&quot;title-sm m-sm&quot;&gt;Edge Cases&lt;/span&gt;
+  &lt;ul class=&quot;list-num&quot;&gt;
+    &lt;li&gt;k &gt; s.length, return 0&lt;/li&gt;
+    &lt;li&gt;k === 1, return 1&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;span class=&quot;title-sm m-sm&quot;&gt;Solution&lt;/span&gt;
+  &lt;ul class=&quot;list-num&quot;&gt;
+    &lt;li&gt;
+      Construct a idxTable which is a hashtable containing the frequencies of
+      characters in the substring.
+    &lt;/li&gt;
+    &lt;li&gt;
+      Using the idxTable, do partitioning until all fragements from partitioning
+      cannot be further partitioned.
+    &lt;/li&gt;
+    &lt;ul class=&quot;list-no-style&quot;&gt;
+      &lt;li&gt;
+        - Characters whose frequency is less than k are considered as patitions.
+      &lt;/li&gt;
+      &lt;li&gt;
+        - We do patitioning by breaking down the string into multiple fragments
+        based on partitions.
+      &lt;/li&gt;
+      &lt;li&gt;
+        - Partitioning is done recursively. In other words, we do partitioning
+        again with fragements if possible and if not return the longest
+        partition [Divide and Conquer]
+      &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;
+      Get the longest partition among all partitions from recursive partitioning
+    &lt;/li&gt;
+    &lt;li&gt;If partition.length &gt;= k, then return it. Otherwise, return 0&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;span class=&quot;title-sm m-sm&quot;&gt;Complxity Analysis&lt;/span&gt;
+  &lt;ul class=&quot;list&quot;&gt;
+    &lt;li&gt;Time Complexity&lt;/li&gt;
+    &lt;ul class=&quot;list-no-style&quot;&gt;
+      &lt;li&gt;
+        Time Complexity for each level partitioning is O(N) since we loop
+        through all characters in the string only once in total from all
+        recursive partitioning to construct an idxTable.
+        &lt;br /&gt;
+        And the worst case is the case where partitioning is done 26 times with
+        each character being a partition per each partitioning level. (There are
+        26 character in English.)
+        &lt;br /&gt;
+        &lt;u&gt;Therefore, Total Time Complexity is O(26 * N = 26N) &lt;/u&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;Space Complexity&lt;/li&gt;
+    &lt;ul class=&quot;list-no-style&quot;&gt;
+      &lt;li&gt;
+        Since the call stack would be the biggest concern in terms of the space
+        complexity in this case where we make some recursive function calls, we
+        can get the worst time complexity by calculating worst call stack space
+        case.
+        &lt;br /&gt;
+        As already mentioned above in the time complexity analysis section,
+        there can be at most 26 partitioning level. So, it indicates that the
+        depth of the call stack is also at most 26.
+        &lt;br /&gt;
+        &lt;u
+          &gt;Therefore, Total Space Complexity is O(26) - a depth of the call
+          stack&lt;/u
+        &gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;h1&gt;Solution Code&lt;/h1&gt;
+&lt;script src=&quot;https://gist.github.com/xkrdudrlf/d7262e3164ded3cde187397a417d3631.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;/p&gt;</content><author><name>Tom Tak</name></author><category term="Computer Science" /><summary type="html">Description of Problem This problem is to find a longest substring where each character of the substring repeats at least k times in the substring. For example, if we are given (&quot;aabbabcc&quot;, 3) as an input, then we need to find a longest substring of &quot;aabbabcc&quot; where each character of the substring repeats at least 3 times in the substring. In this case, the answer would be &quot;aabbab&quot; since there are at least 3 &quot;a&quot; and &quot;b&quot; in &quot;aabbab&quot;.</summary></entry><entry><title type="html">Personal Blog</title><link href="https://xkrdudrlf.github.io/computer%20science/project/2021/05/11/Personal-Blog" rel="alternate" type="text/html" title="Personal Blog" /><published>2021-05-11T00:00:00+00:00</published><updated>2021-05-11T00:00:00+00:00</updated><id>https://xkrdudrlf.github.io/computer%20science/project/2021/05/11/Personal%20Blog</id><content type="html" xml:base="https://xkrdudrlf.github.io/computer%20science/project/2021/05/11/Personal-Blog">&lt;div class=&quot;checkbox blue&quot;&gt;
   &lt;span class=&quot;title&quot;&gt;Project Period&lt;/span&gt;
   &lt;ul class=&quot;list&quot;&gt;
     &lt;li&gt;2021.05.03 ~ 2021.05.11(8 days)&lt;/li&gt;
@@ -215,7 +323,7 @@
 &lt;p&gt;
   Anyway... I'm just trying to think that it was an another good revision of how
   VS Code work and zsh.. (&lt;strike&gt;Nope&lt;/strike&gt;).
-&lt;/p&gt;</content><author><name>Tom Tak</name></author><category term="Daily" /><summary type="html">Today Blog website finally working with Travis CI Documented Blog Project on Word - need to put it up here on the blog later</summary></entry><entry><title type="html">Dummy LeetCode!</title><link href="https://xkrdudrlf.github.io/computer%20science/leetcode/2021/05/07/Trie" rel="alternate" type="text/html" title="Dummy LeetCode!" /><published>2021-05-07T00:00:00+00:00</published><updated>2021-05-07T00:00:00+00:00</updated><id>https://xkrdudrlf.github.io/computer%20science/leetcode/2021/05/07/Trie</id><content type="html" xml:base="https://xkrdudrlf.github.io/computer%20science/leetcode/2021/05/07/Trie">Dummy Post</content><author><name>Tom Tak</name></author><category term="Computer Science" /><summary type="html">Dummy Post</summary></entry><entry><title type="html">Keep Going!</title><link href="https://xkrdudrlf.github.io/daily/2021/2021/05/05/Keep-goin" rel="alternate" type="text/html" title="Keep Going!" /><published>2021-05-05T00:00:00+00:00</published><updated>2021-05-05T00:00:00+00:00</updated><id>https://xkrdudrlf.github.io/daily/2021/2021/05/05/Keep%20goin</id><content type="html" xml:base="https://xkrdudrlf.github.io/daily/2021/2021/05/05/Keep-goin">&lt;!-- prettier-ignore --&gt;
+&lt;/p&gt;</content><author><name>Tom Tak</name></author><category term="Daily" /><summary type="html">Today Blog website finally working with Travis CI Documented Blog Project on Word - need to put it up here on the blog later</summary></entry><entry><title type="html">Keep Going!</title><link href="https://xkrdudrlf.github.io/daily/2021/2021/05/05/Keep-goin" rel="alternate" type="text/html" title="Keep Going!" /><published>2021-05-05T00:00:00+00:00</published><updated>2021-05-05T00:00:00+00:00</updated><id>https://xkrdudrlf.github.io/daily/2021/2021/05/05/Keep%20goin</id><content type="html" xml:base="https://xkrdudrlf.github.io/daily/2021/2021/05/05/Keep-goin">&lt;!-- prettier-ignore --&gt;
 &lt;div class=&quot;checkbox yellow&quot;&gt;
   &lt;span class=&quot;title&quot;&gt;Today&lt;/span&gt;
   &lt;ul class=&quot;list&quot;&gt;
