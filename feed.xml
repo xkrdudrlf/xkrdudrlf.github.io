@@ -1,8 +1,77 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://xkrdudrlf.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://xkrdudrlf.github.io/" rel="alternate" type="text/html" /><updated>2021-05-13T12:50:52+00:00</updated><id>https://xkrdudrlf.github.io/feed.xml</id><title type="html">Tom’s Time Capsule</title><subtitle>github blog with jekyll-paginate-v2 (supports paginations for multiple categories) will link it to the github blog site via Travis)</subtitle><entry><title type="html">395. Longest Substring with At Least K Repeating Characters</title><link href="https://xkrdudrlf.github.io/computer%20science/leetcode/2021/05/13/395" rel="alternate" type="text/html" title="395. Longest Substring with At Least K Repeating Characters" /><published>2021-05-13T00:00:00+00:00</published><updated>2021-05-13T00:00:00+00:00</updated><id>https://xkrdudrlf.github.io/computer%20science/leetcode/2021/05/13/395</id><content type="html" xml:base="https://xkrdudrlf.github.io/computer%20science/leetcode/2021/05/13/395">&lt;!-- prettier-ignore --&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://xkrdudrlf.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://xkrdudrlf.github.io/" rel="alternate" type="text/html" /><updated>2021-05-13T14:27:12+00:00</updated><id>https://xkrdudrlf.github.io/feed.xml</id><title type="html">Tom’s Time Capsule</title><subtitle>github blog with jekyll-paginate-v2 (supports paginations for multiple categories) will link it to the github blog site via Travis)</subtitle><entry><title type="html">Event Propagation</title><link href="https://xkrdudrlf.github.io/computer%20science/javascript/2021/05/13/Event-Propagation" rel="alternate" type="text/html" title="Event Propagation" /><published>2021-05-13T00:00:00+00:00</published><updated>2021-05-13T00:00:00+00:00</updated><id>https://xkrdudrlf.github.io/computer%20science/javascript/2021/05/13/Event%20Propagation</id><content type="html" xml:base="https://xkrdudrlf.github.io/computer%20science/javascript/2021/05/13/Event-Propagation">&lt;p&gt;&lt;/p&gt;
+&lt;h1&gt;Event Propagation: Capturing and Bubbling&lt;/h1&gt;
+&lt;p&gt;
+  &lt;!-- excerpt-start --&gt;
+  &lt;b&gt;Capturing Phase&lt;/b&gt;: When we click on the element, then the parents of the
+  element firstly detects the event and start pushing the event down until the
+  event reaches the target element.
+  &lt;br /&gt;
+  &lt;b style=&quot;margin-left: 0.5rem&quot;&gt;Bubbling Phase&lt;/b&gt;: After the capturing phase,
+  bubbling phase begins, which means the event starts going up to the parent of
+  the target elements until the event reaches the top.
+&lt;/p&gt;
+
+&lt;br /&gt;
+
+&lt;h1&gt;Event Propagation in Practice&lt;/h1&gt;
+&lt;p&gt;
+  .addEventListener usually captures the event during the bubbling phase. To
+  modify this so that the event can be captured during the capturing phase, set
+  the third parameter of addEventListener function to “true’. But, that is not
+  used in most cases.
+  &lt;br /&gt;
+  &lt;b&gt;Inside .addEventListener:&lt;/b&gt;
+  &lt;br /&gt;
+  &lt;pre&gt;
+    * e.target: indicates where the event happened initially.
+    * e.currentTarget: indicates the target to which the eventListener is
+    * e.stopPropagation: stops further event propagation to its parents.
+  &lt;/pre&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Event Delegation&lt;/h1&gt;
+&lt;p&gt;
+  Event Delegation is a technique which can be used when we have the common way
+  of handling the events with multiple elements.
+  &lt;br /&gt;
+  Specifically, we capture and handle the event from their common parent element
+  when the target elements have the same way of event handling.
+  &lt;br /&gt;
+  This can be an efficient solution when we have lots of target elements sharing
+  same event handling logic since it can save us from having the same multiple
+  event handler functions.
+&lt;/p&gt;</content><author><name>Tom Tak</name></author><category term="Computer Science" /><summary type="html">Event Propagation: Capturing and Bubbling Capturing Phase: When we click on the element, then the parents of the element firstly detects the event and start pushing the event down until the event reaches the target element. Bubbling Phase: After the capturing phase, bubbling phase begins, which means the event starts going up to the parent of the target elements until the event reaches the top.</summary></entry><entry><title type="html">What is DOM?</title><link href="https://xkrdudrlf.github.io/computer%20science/javascript/2021/05/13/How-Dom-Works" rel="alternate" type="text/html" title="What is DOM?" /><published>2021-05-13T00:00:00+00:00</published><updated>2021-05-13T00:00:00+00:00</updated><id>https://xkrdudrlf.github.io/computer%20science/javascript/2021/05/13/How-Dom-Works</id><content type="html" xml:base="https://xkrdudrlf.github.io/computer%20science/javascript/2021/05/13/How-Dom-Works">&lt;p&gt;&lt;/p&gt;
+&lt;h1&gt;What is DOM ?&lt;/h1&gt;
+&lt;p&gt;
+  &lt;!-- excerpt-start --&gt;
+  DOM is a structured representation of HTML documents. It allows JavaScript to
+  access the HTML elements and styles to manipulate them.
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;b&gt;DOCUMENT&lt;/b&gt; is the special object that is the entry point to the DOM like
+  “document.querySelector()”. And the child of DOM object is the
+  &lt;b&gt;&amp;lt;html&amp;gt;&lt;/b&gt; which is the root element of the all HTML elements. Next
+  are the &lt;b&gt;&amp;lt;head&amp;gt;&lt;/b&gt; and &lt;b&gt;&amp;lt;body&amp;gt;&lt;/b&gt; elements which are the
+  children of the &amp;lt;html&amp;gt; element.
+&lt;/p&gt;
+
+&lt;br /&gt;
+
+&lt;h1&gt;DOM !== JavaScript&lt;/h1&gt;
+&lt;p&gt;
+  DOM methods and properties are not part of JavaScript.
+  &lt;b
+    &gt;DOM methods and properties are actually part of WEB APIs which are like
+    libraries that browsers implement in JavaScript language and we can access
+    them from our JavaScript code.&lt;/b
+  &gt;
+  Since there is actually an official DOM specification each browser has to
+  implement, we can do the same DOM manipulations in all browsers.
+&lt;/p&gt;</content><author><name>Tom Tak</name></author><category term="Computer Science" /><summary type="html">What is DOM ? DOM is a structured representation of HTML documents. It allows JavaScript to access the HTML elements and styles to manipulate them. DOCUMENT is the special object that is the entry point to the DOM like “document.querySelector()”. And the child of DOM object is the &amp;lt;html&amp;gt; which is the root element of the all HTML elements. Next are the &amp;lt;head&amp;gt; and &amp;lt;body&amp;gt; elements which are the children of the &amp;lt;html&amp;gt; element.</summary></entry><entry><title type="html">395. Longest Substring with At Least K Repeating Characters</title><link href="https://xkrdudrlf.github.io/computer%20science/leetcode/2021/05/13/395" rel="alternate" type="text/html" title="395. Longest Substring with At Least K Repeating Characters" /><published>2021-05-13T00:00:00+00:00</published><updated>2021-05-13T00:00:00+00:00</updated><id>https://xkrdudrlf.github.io/computer%20science/leetcode/2021/05/13/395</id><content type="html" xml:base="https://xkrdudrlf.github.io/computer%20science/leetcode/2021/05/13/395">&lt;!-- prettier-ignore --&gt;
 &lt;h1&gt;Description of Problem&lt;/h1&gt;
 &lt;p&gt;
   &lt;!-- excerpt-start --&gt;
-  This problem is to find a longest substring where each character of the
+  This problem is about finding a longest substring where each character of the
   substring repeats at least k times in the substring.
 &lt;/p&gt;
 &lt;p&gt;
@@ -104,9 +173,7 @@
 &lt;/div&gt;
 
 &lt;h1&gt;Solution Code&lt;/h1&gt;
-&lt;script src=&quot;https://gist.github.com/xkrdudrlf/d7262e3164ded3cde187397a417d3631.js&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;&lt;/p&gt;</content><author><name>Tom Tak</name></author><category term="Computer Science" /><summary type="html">Description of Problem This problem is to find a longest substring where each character of the substring repeats at least k times in the substring. For example, if we are given (&quot;aabbabcc&quot;, 3) as an input, then we need to find a longest substring of &quot;aabbabcc&quot; where each character of the substring repeats at least 3 times in the substring. In this case, the answer would be &quot;aabbab&quot; since there are at least 3 &quot;a&quot; and &quot;b&quot; in &quot;aabbab&quot;.</summary></entry><entry><title type="html">Personal Blog</title><link href="https://xkrdudrlf.github.io/computer%20science/project/2021/05/11/Personal-Blog" rel="alternate" type="text/html" title="Personal Blog" /><published>2021-05-11T00:00:00+00:00</published><updated>2021-05-11T00:00:00+00:00</updated><id>https://xkrdudrlf.github.io/computer%20science/project/2021/05/11/Personal%20Blog</id><content type="html" xml:base="https://xkrdudrlf.github.io/computer%20science/project/2021/05/11/Personal-Blog">&lt;div class=&quot;checkbox blue&quot;&gt;
+&lt;script src=&quot;https://gist.github.com/xkrdudrlf/d7262e3164ded3cde187397a417d3631.js&quot;&gt;&lt;/script&gt;</content><author><name>Tom Tak</name></author><category term="Computer Science" /><summary type="html">Description of Problem This problem is about finding a longest substring where each character of the substring repeats at least k times in the substring. For example, if we are given (&quot;aabbabcc&quot;, 3) as an input, then we need to find a longest substring of &quot;aabbabcc&quot; where each character of the substring repeats at least 3 times in the substring. In this case, the answer would be &quot;aabbab&quot; since there are at least 3 &quot;a&quot; and &quot;b&quot; in &quot;aabbab&quot;.</summary></entry><entry><title type="html">Personal Blog</title><link href="https://xkrdudrlf.github.io/computer%20science/project/2021/05/11/Personal-Blog" rel="alternate" type="text/html" title="Personal Blog" /><published>2021-05-11T00:00:00+00:00</published><updated>2021-05-11T00:00:00+00:00</updated><id>https://xkrdudrlf.github.io/computer%20science/project/2021/05/11/Personal%20Blog</id><content type="html" xml:base="https://xkrdudrlf.github.io/computer%20science/project/2021/05/11/Personal-Blog">&lt;div class=&quot;checkbox blue&quot;&gt;
   &lt;span class=&quot;title&quot;&gt;Project Period&lt;/span&gt;
   &lt;ul class=&quot;list&quot;&gt;
     &lt;li&gt;2021.05.03 ~ 2021.05.11(8 days)&lt;/li&gt;
@@ -416,90 +483,4 @@
   daily post md file soon !! Gnight :))
   &lt;img src=&quot;/assets/images/blog-design.jpg&quot; alt=&quot;blog-design&quot; /&gt;
   (Hover over the Image to enlarge it 😁)
-&lt;/p&gt;</content><author><name>Tom Tak</name></author><category term="Daily" /><summary type="html">Today Complete a basic skeleton structure of a blog Implemented Header/Profile/Navbar(Design Structure Only) Tried 2 Trie LeetCode problems (211 solved, 212 TLE for the worst case)</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://xkrdudrlf.github.io/assets/images/blog-design.jpg" /><media:content medium="image" url="https://xkrdudrlf.github.io/assets/images/blog-design.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Burn Out</title><link href="https://xkrdudrlf.github.io/daily/2021/2021/05/03/Burnt-out" rel="alternate" type="text/html" title="Burn Out" /><published>2021-05-03T00:00:00+00:00</published><updated>2021-05-03T00:00:00+00:00</updated><id>https://xkrdudrlf.github.io/daily/2021/2021/05/03/Burnt%20out</id><content type="html" xml:base="https://xkrdudrlf.github.io/daily/2021/2021/05/03/Burnt-out">&lt;div class=&quot;checkbox yellow&quot;&gt;
-  &lt;span class=&quot;title&quot;&gt;Today&lt;/span&gt;
-  &lt;ul class=&quot;list&quot;&gt;
-    &lt;li&gt;Finished Taking Jekyll Tutorial&lt;/li&gt;
-    &lt;li&gt;Tried Medium level Trie Problem on LeetCode[Failed]&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;checkbox blue&quot;&gt;
-  &lt;span class=&quot;title&quot;&gt;Tommorrow&lt;/span&gt;
-  &lt;ul class=&quot;list&quot;&gt;
-    &lt;li&gt;[Morning] Finalize a blog design - Do not too be ambitious&lt;/li&gt;
-    &lt;li&gt;[Afternoon] Start Implementing a header of a blog based on a design&lt;/li&gt;
-    &lt;li&gt;Try solving 2 problems(Trie/Stack/Queue) in Leetcode&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/div&gt;
-
-&lt;p&gt;
-  Today I was totally burnt out especially in the evening so i couldn't study
-  enough for ds &amp; algo on leetcode.
-  &lt;br /&gt;
-  I feel like i should be more consistent. Take time and do things one by one. I
-  will get there some day if i don't give up in the middle being burnt out.
-&lt;/p&gt;</content><author><name>Tom Tak</name></author><category term="Daily" /><summary type="html">Today Finished Taking Jekyll Tutorial Tried Medium level Trie Problem on LeetCode[Failed]</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://xkrdudrlf.github.io/images/img1.jpg" /><media:content medium="image" url="https://xkrdudrlf.github.io/images/img1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Let’s Build!</title><link href="https://xkrdudrlf.github.io/daily/2021/2021/05/02/Let's-Build!" rel="alternate" type="text/html" title="Let’s Build!" /><published>2021-05-02T00:00:00+00:00</published><updated>2021-05-02T00:00:00+00:00</updated><id>https://xkrdudrlf.github.io/daily/2021/2021/05/02/Let's%20Build!</id><content type="html" xml:base="https://xkrdudrlf.github.io/daily/2021/2021/05/02/Let's-Build!">&lt;div class=&quot;checkbox yellow&quot;&gt;
-  &lt;span class=&quot;title&quot;&gt;Today&lt;/span&gt;
-  &lt;ul class=&quot;list&quot;&gt;
-    &lt;li&gt;Configured Ruby &amp; Jekyll dev environment&lt;/li&gt;
-    &lt;li&gt;Ready to start building up a blog with html/css(Sass)&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;checkbox blue&quot;&gt;
-  &lt;span class=&quot;title&quot;&gt;Tommorrow&lt;/span&gt;
-  &lt;ul class=&quot;list&quot;&gt;
-&lt;li&gt;Finish the skeleton of my blog (Header/Body/Footer)&lt;/li&gt;
-&lt;li&gt;Focus on the structure rather than styling (Do this later)&lt;/li&gt;
-&lt;li&gt;Try solving 2 problems(Trie/Stack/Queue) in Leetcode&lt;/li&gt;
-&lt;/div&gt;
-
-&lt;!-- excerpt-start --&gt;
-&lt;p&gt;
-  Today, I finally started building my own blog, which has been always on my
-  to-do-list, but never dare to start at least till yesterday. So, I wasn't
-  planning to do this today at all though i thought i will at some point in the
-  future.
-&lt;/p&gt;
-&lt;p&gt;
-  Initially, I simply thought that my front-end dev skills aren't good enough
-  yet to build a blog wesbite since I'm actually still at a very early stage of
-  front-end development. I just had finished the basics of HTML and CSS(Sass)
-  course 2 days ago.
-&lt;/p&gt;  
-&lt;p&gt;
-  Still, I kept thinking that I really need to blog my daily life or learning
-  for many reasons. First one I could think of was that it might help me to get
-  a job in the future since the recruiters might want to know how I've been
-  studying so far and they would be able to check those easily from my blog.
-&lt;/p&gt;
-&lt;p&gt;
-  But, more than anything, it was to calm me down from being depressed and
-  feeling anxious. I think I studied not that bad last month, but I kept feeling
-  worried if I've been doing alright. So, I had to keep checking where I'm up to
-  and how much i've done so far. And after a few days in that same mood, I
-  finally realised that I need something visual to show the workloads I've done
-  and the thing could be my blog since i will record my daily learning there and
-  be able to check them easily if i want to.
-&lt;/p&gt;
-&lt;p&gt;
-  Anyway, so i tried buidling damn blog today. My original thought was to finish
-  building it today within a few hours and how naive I was !! 😂😂 I already got
-  stuck with installing ruby on my WSL, which was very painful. I bumped into
-  lot of diffrent error messages which i barely could understand at all. I
-  literally spent all my morning time wiht installing damn ruby on my WSL.
-&lt;/p&gt;
-&lt;p&gt;
-  Even after that, it again took me another few hours to figure out how jekyll
-  exactly works with its own structure and liquid, which i've never seen before.
-  Anyway, I finally figured it out now and its almost 12am 😥😥. And my blog
-  website still looks very humble.. compared to my ambitious one in my
-  imagination. Whatever :(( I still have a week right? (I changed my plan, so i
-  will try building it up for a week)
-  &lt;br /&gt;
-  Ok, I better wrap it up here since I have tommorow to start!
-&lt;/p&gt;
-
-&lt;!-- ![img-1](/images/img1.jpg) --&gt;
-&lt;!-- &lt;img src=&quot;/images/img1.jpg&quot; alt=&quot;img-1&quot; /&gt; --&gt;</content><author><name>Tom Tak</name></author><category term="Daily" /><summary type="html">Today Configured Ruby &amp; Jekyll dev environment Ready to start building up a blog with html/css(Sass)</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://xkrdudrlf.github.io/images/img1.jpg" /><media:content medium="image" url="https://xkrdudrlf.github.io/images/img1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;/p&gt;</content><author><name>Tom Tak</name></author><category term="Daily" /><summary type="html">Today Complete a basic skeleton structure of a blog Implemented Header/Profile/Navbar(Design Structure Only) Tried 2 Trie LeetCode problems (211 solved, 212 TLE for the worst case)</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://xkrdudrlf.github.io/assets/images/blog-design.jpg" /><media:content medium="image" url="https://xkrdudrlf.github.io/assets/images/blog-design.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
