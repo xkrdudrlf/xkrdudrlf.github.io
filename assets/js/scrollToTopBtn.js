@@ -1,32 +1,21 @@
-// Force the page start from top when refreshed.
-// window.onbeforeunload = function () {
-//   window.scrollTo(0, 0);
-// };
-
 const scrollToTopBtn = document.getElementById("scrollToTopBtn");
-let pivotY = -1;
-let defaultPosition, defaultTop, defaultBtm;
-function scrollFunc() {
-  let yDistanceFromViewPort = scrollToTopBtn.getBoundingClientRect().bottom;
-  let currY = window.scrollY;
+const profile = document.getElementsByClassName("profile")[0];
 
-  if (yDistanceFromViewPort <= window.innerHeight - 50 && pivotY === -1) {
-    pivotY = currY;
-    defaultPosition = scrollToTopBtn.style.position;
-    defaultTop = scrollToTopBtn.style.top;
-    defaultBtm = scrollToTopBtn.style.bottom;
-    scrollToTopBtn.style.position = "fixed";
-    scrollToTopBtn.style.top = "unset";
-    scrollToTopBtn.style.bottom = "50px";
-  }
-  if (pivotY > currY && pivotY !== -1) {
-    pivotY = -1;
-    scrollToTopBtn.style.position = defaultPosition;
-    scrollToTopBtn.style.top = defaultTop;
-    scrollToTopBtn.style.bottom = defaultTopBtm;
+function fixedBtn(entries) {
+  const [entry] = entries;
+  if (!entry.isIntersecting) {
+    scrollToTopBtn.classList.remove("invisible");
+  } else {
+    scrollToTopBtn.classList.add("invisible");
   }
 }
-window.addEventListener("scroll", scrollFunc);
+
+const btnObserver = new IntersectionObserver(fixedBtn, {
+  root: null,
+  threshold: 0,
+});
+
+btnObserver.observe(profile);
 
 // Source: https://getflywheel.com/layout/sticky-back-to-top-button-tutorial/
 const scrollToTop = () => {
