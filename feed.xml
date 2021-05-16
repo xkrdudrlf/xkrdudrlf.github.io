@@ -1,4 +1,58 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://xkrdudrlf.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://xkrdudrlf.github.io/" rel="alternate" type="text/html" /><updated>2021-05-14T11:27:01+00:00</updated><id>https://xkrdudrlf.github.io/feed.xml</id><title type="html">Tom’s Time Capsule</title><subtitle>github blog with jekyll-paginate-v2 (supports paginations for multiple categories) will link it to the github blog site via Travis)</subtitle><entry><title type="html">v1.01</title><link href="https://xkrdudrlf.github.io/version/2021/05/14/version-log" rel="alternate" type="text/html" title="v1.01" /><published>2021-05-14T00:00:00+00:00</published><updated>2021-05-14T00:00:00+00:00</updated><id>https://xkrdudrlf.github.io/version/2021/05/14/version%20log</id><content type="html" xml:base="https://xkrdudrlf.github.io/version/2021/05/14/version-log">&lt;p&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://xkrdudrlf.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://xkrdudrlf.github.io/" rel="alternate" type="text/html" /><updated>2021-05-16T14:06:48+00:00</updated><id>https://xkrdudrlf.github.io/feed.xml</id><title type="html">Tom’s Time Capsule</title><subtitle>github blog with jekyll-paginate-v2 (supports paginations for multiple categories) will link it to the github blog site via Travis)</subtitle><entry><title type="html">Dynamic Programming(DP)</title><link href="https://xkrdudrlf.github.io/computer%20science/ds_algo/2021/05/16/Dynamic-Programming(DP)" rel="alternate" type="text/html" title="Dynamic Programming(DP)" /><published>2021-05-16T00:00:00+00:00</published><updated>2021-05-16T00:00:00+00:00</updated><id>https://xkrdudrlf.github.io/computer%20science/ds_algo/2021/05/16/Dynamic%20Programming(DP)</id><content type="html" xml:base="https://xkrdudrlf.github.io/computer%20science/ds_algo/2021/05/16/Dynamic-Programming(DP)">&lt;p&gt;&lt;/p&gt;
+&lt;div class=&quot;checkbox red&quot;&gt;
+  &lt;b&gt;Discalimer&lt;/b&gt;
+  This post is solely based on my understanding of the cohavencept.
+&lt;/div&gt;
+&lt;h1&gt;What is the Dynamic Programming?&lt;/h1&gt;
+&lt;p&gt;
+  &lt;!-- excerpt-start --&gt;
+  Dynamic Programming is a technique which solves the problem by solving its
+  subproblems in an accumulative manner with the help of memoization. In other
+  words, we do not attempt to solve the problem directly. Rather, we try to
+  solve its subproblems first so that we can use the results of subproblems for
+  solving the original problem. However, there can be many overlapping parts
+  among subproblems, so we use another technique called &quot;memoization&quot; to avoid
+  re-solving the already solved problem.
+&lt;/p&gt;
+&lt;p&gt;
+  Memoization is a technique where we store the results of subproblems somewhere
+  so that we don't need to re-solve the problem again later when we come across
+  the subproblem again during DP.
+&lt;/p&gt;
+
+&lt;br /&gt;
+&lt;h1&gt;Top-Down vs Bottom-Up&lt;/h1&gt;
+&lt;p&gt;
+  In Dynamic Programming, there are 2 possible approaches to use : Top-down and
+  Bottom-Up. Both means what their names literally describe. Top-Down is an
+  approach where we start solving the problem from the top(original problem) to
+  down(base case) while Bottom-Up is an approach where we start solving the
+  problem from the bottom to top.
+&lt;/p&gt;
+&lt;p&gt;
+  Both have asymtotically the same time complexity, but considering that
+  Top-Down approach uses a recursive function using a stack, there can be a
+  limit for using this approach with regards to the max-depth of a stack. On top
+  of that, Bottom-Up approach usually has a better performance in that Top-down
+  approach has some overheads incurring from procedural calls like recursive
+  function calls. However, in unusual cases where Top-down approach does not
+  need to go through all the subproblems, Bottom-up approach can have worse
+  performance since it always goes through all the possible sub-problems unlike
+  Top-down approach.
+&lt;/p&gt;
+
+&lt;br /&gt;
+
+&lt;h1&gt;When can we use Dynamic Programming?&lt;/h1&gt;
+&lt;p&gt;
+  I think that DP can be used especially when we have the problem which can be
+  solved using the results of its subproblems and subproblems also share the
+  same solution logic with the original problem.
+&lt;/p&gt;
+&lt;p&gt;
+  Furthermore, if those subproblems are overlapped each other, then DP can be
+  very effective strategy with the help of memoization.
+&lt;/p&gt;</content><author><name>Tom Tak</name></author><category term="Computer Science" /><summary type="html">Discalimer This post is solely based on my understanding of the cohavencept. What is the Dynamic Programming? Dynamic Programming is a technique which solves the problem by solving its subproblems in an accumulative manner with the help of memoization. In other words, we do not attempt to solve the problem directly. Rather, we try to solve its subproblems first so that we can use the results of subproblems for solving the original problem. However, there can be many overlapping parts among subproblems, so we use another technique called &quot;memoization&quot; to avoid re-solving the already solved problem. Memoization is a technique where we store the results of subproblems somewhere so that we don't need to re-solve the problem again later when we come across the subproblem again during DP.</summary></entry><entry><title type="html">v1.01</title><link href="https://xkrdudrlf.github.io/version/2021/05/14/version-log" rel="alternate" type="text/html" title="v1.01" /><published>2021-05-14T00:00:00+00:00</published><updated>2021-05-14T00:00:00+00:00</updated><id>https://xkrdudrlf.github.io/version/2021/05/14/version%20log</id><content type="html" xml:base="https://xkrdudrlf.github.io/version/2021/05/14/version-log">&lt;p&gt;&lt;/p&gt;
 &lt;h1&gt;1. A board for update log&lt;/h1&gt;
 &lt;p&gt;
   &lt;!-- excerpt-start --&gt;
@@ -416,43 +470,4 @@
 &lt;p&gt;
   Anyway... I'm just trying to think that it was an another good revision of how
   VS Code work and zsh.. (&lt;strike&gt;Nope&lt;/strike&gt;).
-&lt;/p&gt;</content><author><name>Tom Tak</name></author><category term="Daily" /><summary type="html">Today Blog website finally working with Travis CI Documented Blog Project on Word - need to put it up here on the blog later</summary></entry><entry><title type="html">Keep Going!</title><link href="https://xkrdudrlf.github.io/daily/2021/2021/05/05/Keep-goin" rel="alternate" type="text/html" title="Keep Going!" /><published>2021-05-05T00:00:00+00:00</published><updated>2021-05-05T00:00:00+00:00</updated><id>https://xkrdudrlf.github.io/daily/2021/2021/05/05/Keep%20goin</id><content type="html" xml:base="https://xkrdudrlf.github.io/daily/2021/2021/05/05/Keep-goin">&lt;!-- prettier-ignore --&gt;
-&lt;div class=&quot;checkbox yellow&quot;&gt;
-  &lt;span class=&quot;title&quot;&gt;Today&lt;/span&gt;
-  &lt;ul class=&quot;list&quot;&gt;
-    &lt;li&gt;&quot;Home(Index)&quot; Page - Finished Implementing Pagination(Functionality &amp; Design)&lt;/li&gt;
-    &lt;li&gt;Figured Out Jekyll File Structure with regards to post folder location&lt;/li&gt;
-    &lt;li&gt;Navbar Links Implemented&lt;/li&gt;
-    &lt;li&gt;Trie LeetCode problem (212 Revision with solution(plain + optimized version)&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;checkbox blue&quot;&gt;
-  &lt;span class=&quot;title&quot;&gt;Tommorrow&lt;/span&gt;
-  &lt;ul class=&quot;list&quot;&gt;
-    &lt;li&gt;Configure the common template for category main page/ post page&lt;/li&gt;
-    &lt;li&gt;Finishing Designing and Implementing post.html&lt;/li&gt;
-    &lt;li&gt;Try solving 2 LeetCode problems (Trie/Stack/Queue)&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/div&gt;
-
-&lt;!-- excerpt-start --&gt;
-&lt;p&gt;
-  Nowadays, i keep studying more than 8 hrs per day though i bludges for a while
-  in the day. I think its mainly due to the blog project since it just eats up
-  large chunk of time easily. And I dont think i am fully concentrated while i'm
-  doing the project compared to taking a course since all i do for project is
-  mostly a series of &quot;Googling &amp; Being Frustrated for a while&quot;.
-&lt;/p&gt;
-&lt;p&gt;
-  Anyhow, hope i can finally finish template files for post. So, I would not
-  need to manually template the post like now i'm doing. And i think i'm putting
-  too much time on learning this jekyll &amp; liquid stuffs rather than practicing
-  html/css/js which i originally wanted to do.
-&lt;/p&gt;
-&lt;p&gt;
-  I better finish this project asap so that I can practice more on html/css/js
-  before moving on to js. At the moment, I'm thinking of cloning some popular
-  website for practices like i was doing with starbuck page.(Hmm i probs should
-  restart the project again once i finish this)
-&lt;/p&gt;</content><author><name>Tom Tak</name></author><category term="Daily" /><summary type="html">Today &quot;Home(Index)&quot; Page - Finished Implementing Pagination(Functionality &amp; Design) Figured Out Jekyll File Structure with regards to post folder location Navbar Links Implemented Trie LeetCode problem (212 Revision with solution(plain + optimized version)</summary></entry></feed>
+&lt;/p&gt;</content><author><name>Tom Tak</name></author><category term="Daily" /><summary type="html">Today Blog website finally working with Travis CI Documented Blog Project on Word - need to put it up here on the blog later</summary></entry></feed>

@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <link rel="stylesheet" href="/assets/css/styles.css" />
-    <title>Reset</title>
+    <title>Dynamic Programming(DP)</title>
   </head>
   <body>
     <div class="body-container">
@@ -93,8 +93,8 @@
       
       
       
-        
-          <li class="nav-menu-item sub current">
+          
+          <li class="nav-menu-item sub">
         
           <i class="far fa-folder-open"></i><a href="/Daily/2021"> 2021 (8)</a>      
         </li>
@@ -135,8 +135,8 @@
       
       
       
-          
-          <li class="nav-menu-item sub">
+        
+          <li class="nav-menu-item sub current">
         
           <i class="far fa-folder-open"></i><a href="/Computer Science/DS_Algo"> DS_Algo (1)</a>      
         </li>
@@ -184,65 +184,71 @@
         <section>
           <article class="post-container">
   <span class="post-category">
-    Daily | 2021
+    Computer Science | DS_Algo
   </span>
 
-  <span class="post-title">Reset</span>
+  <span class="post-title">Dynamic Programming(DP)</span>
 
   <span class="post-profile">
     <img src="/assets/images/profile-img.jpg" alt="author-img" />
     <span> Tom Tak |</span>
-    <span class="post-date">08 May 2021</span>
+    <span class="post-date">16 May 2021</span>
   </span>
 
-  <div class="post-content"><!-- prettier-ignore -->
-<div class="checkbox yellow">
-  <span class="title">Today</span>
-  <ul class="list">
-    <li>Blog website finally working with Travis CI</li>
-    <li>Documented Blog Project on Word - need to put it up here on the blog later</li>
-  </ul>
+  <div class="post-content"><p></p>
+<div class="checkbox red">
+  <b>Discalimer</b>
+  This post is solely based on my understanding of the cohavencept.
 </div>
-
-<div class="checkbox blue">
-  <span class="title">Tommorrow</span>
-  <ul class="list">
-    <li>Finish Designing/Implementing Post/Footer Section of Blog</li>
-    <li>Make the blog responsive to various viewport sizes(Web/Tab/Mobile)</li>
-    <li>Try solving 2 LeetCode problems (Trie/Stack/Queue)</li>
-  </ul>
-</div>
-
+<h1>What is the Dynamic Programming?</h1>
 <p>
   <!-- excerpt-start -->
-  Today was very confusing day with ups and downs. At least till this morning, I
-  was so happy that I finally get my blog work with Travis CI, which was the
-  most hardest part for me. And The only thing left for me to do was just same
-  designing and implementing phase for post/footer and bit of media queries to
-  make the blog site responsive.
+  Dynamic Programming is a technique which solves the problem by solving its
+  subproblems in an accumulative manner with the help of memoization. In other
+  words, we do not attempt to solve the problem directly. Rather, we try to
+  solve its subproblems first so that we can use the results of subproblems for
+  solving the original problem. However, there can be many overlapping parts
+  among subproblems, so we use another technique called "memoization" to avoid
+  re-solving the already solved problem.
 </p>
 <p>
-  Being hopeful, after lunch, I strated documenting what I've done so far in the
-  project for the future reference and to record my learnings from this project.
-  And it was also not that bad, I quite enjoyed writing it out.
+  Memoization is a technique where we store the results of subproblems somewhere
+  so that we don't need to re-solve the problem again later when we come across
+  the subproblem again during DP.
+</p>
+
+<br />
+<h1>Top-Down vs Bottom-Up</h1>
+<p>
+  In Dynamic Programming, there are 2 possible approaches to use : Top-down and
+  Bottom-Up. Both means what their names literally describe. Top-Down is an
+  approach where we start solving the problem from the top(original problem) to
+  down(base case) while Bottom-Up is an approach where we start solving the
+  problem from the bottom to top.
 </p>
 <p>
-  And after that, around dinner time, eveyrthing started getting hairy all of a
-  sudden.. My vscode terminal starts not showing anything just being blank for
-  no reason. And that completely sent me on a wild-goose chase since it turned
-  out that there was nothing wrong with me, rahter it was due to some mysterious
-  incompatibility existing between VS Code and my zsh theme (10k sth whatever).
+  Both have asymtotically the same time complexity, but considering that
+  Top-Down approach uses a recursive function using a stack, there can be a
+  limit for using this approach with regards to the max-depth of a stack. On top
+  of that, Bottom-Up approach usually has a better performance in that Top-down
+  approach has some overheads incurring from procedural calls like recursive
+  function calls. However, in unusual cases where Top-down approach does not
+  need to go through all the subproblems, Bottom-up approach can have worse
+  performance since it always goes through all the possible sub-problems unlike
+  Top-down approach.
+</p>
+
+<br />
+
+<h1>When can we use Dynamic Programming?</h1>
+<p>
+  I think that DP can be used especially when we have the problem which can be
+  solved using the results of its subproblems and subproblems also share the
+  same solution logic with the original problem.
 </p>
 <p>
-  Till I finally figured that out, I literally uninstalled and installed
-  everything suspcious.. literally everything.. I firstly reset my zsh thinking
-  i might've modified some parts accidentally and VS Code after that. In the
-  end, after finding out what is the cause, i had to revert every set up env
-  back to what they were which was another pain in the neck 😥😥.
-</p>
-<p>
-  Anyway... I'm just trying to think that it was an another good revision of how
-  VS Code work and zsh.. (<strike>Nope</strike>).
+  Furthermore, if those subproblems are overlapped each other, then DP can be
+  very effective strategy with the help of memoization.
 </p>
 </div>
 
@@ -259,67 +265,21 @@
 
 <!-- prettier-ignore -->
 <ul class="post-pagination">
-  <span class="title">Other Posts in Daily | 2021</span>
+  <span class="title">Other Posts in Computer Science | DS_Algo</span>
   
   
-  
-    
-    
-    
-    
-    
-    <li class="post-pagination-item">
-      <a href="https://xkrdudrlf.github.io//daily/2021/2021/05/04/Having-Fun">
-        <span>Having Fun!</span>
-        <span>2021. May. 04</span>
-      </a>
-    </li>
-  
-    
-    
-    
-    
-    
-    <li class="post-pagination-item">
-      <a href="https://xkrdudrlf.github.io//daily/2021/2021/05/05/Keep-goin">
-        <span>Keep Going!</span>
-        <span>2021. May. 05</span>
-      </a>
-    </li>
   
   
   <li class="post-pagination-item current">
-    <i class="fas fa-chevron-right"></i> Reset
+    <i class="fas fa-chevron-right"></i> Dynamic Programming(DP)
   </li> 
   
   
   
   
   
-    
-    
-    
-    
-    <li class="post-pagination-item">
-      <a href="https://xkrdudrlf.github.io//daily/2021/2021/05/09/Let's-Finish">
-        <span>Let's Finish</span>
-        <span>2021. May. 09</span>
-      </a>
-    </li>
   
-    
-    
-    
-    
-    <li class="post-pagination-item">
-      <a href="https://xkrdudrlf.github.io//daily/2021/2021/05/10/Finished-building-up-a-blog">
-        <span>Finished a blog p...</span>
-        <span>2021. May. 10</span>
-      </a>
-    </li>
-  
-  
-  <span class="currLocation">5 / 8 posts</span>
+  <span class="currLocation">1 / 1 posts</span>
 </ul>
  
   
